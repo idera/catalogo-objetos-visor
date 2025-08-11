@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Cargar todas las hojas del Excel
-xls = pd.read_excel("Catalogo_Objetos_IDERA.xls", sheet_name=None, header=2)
+xls = pd.read_excel("convertidor-excel-json/Catalogo_Objetos_IDERA.xls", sheet_name=None, header=2)
 
 # Hoja: Clases
 df_clases = xls["CLASES"]
