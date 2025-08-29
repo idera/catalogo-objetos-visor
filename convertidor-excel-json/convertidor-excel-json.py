@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Cargar todas las hojas del Excel
-xls = pd.read_excel("convertidor-excel-json/Catalogo_Objetos_IDERA.xls", sheet_name=None, header=2)
+xls = pd.read_excel("convertidor-excel-json/Catalogo_Objetos_IDERA-2025.xlsm", sheet_name=None, header=2)
 
 # Hoja: Clases
 df_clases = xls["CLASES"]
@@ -45,6 +45,7 @@ for i, clase_row in df_clases.iterrows(): # el indice i es el índice de la clas
 
             objeto_data = {
                 "nombre": obj_nombre,
+                "codigo": obj_codigo,
                 "geometria": obj_geo,
                 "definicion": obj_def,
                 "atributos": []
@@ -70,7 +71,7 @@ for i, clase_row in df_clases.iterrows(): # el indice i es el índice de la clas
 
 # Guardar el resultado
 import json
-with open("catalogo.json", "w", encoding="utf-8") as f:
+with open("convertidor-excel-json/catalogo-objetos-2025.json", "w", encoding="utf-8") as f:
     json.dump(catalogo, f, ensure_ascii=False, indent=2)
 
 
