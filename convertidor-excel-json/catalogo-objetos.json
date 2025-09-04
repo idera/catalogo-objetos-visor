@@ -11,6 +11,7 @@
         "objetos": [
           {
             "nombre": "Yacimiento hidrocarburífero",
+            "codigo": 10101,
             "geometria": "Polígono",
             "definicion": "Cuerpo geológico aproximado, constituido por petróleo y / o gas, económicamente explotable.",
             "atributos": [
@@ -46,6 +47,7 @@
           },
           {
             "nombre": "Yacimiento mineral",
+            "codigo": 10102,
             "geometria": "Polígono",
             "definicion": "Parte de la corteza terrestre en la cual, debido a procesos geológicos, ha habido acumulación de  materias primas minerales susceptibles de ser explotadas para el aprovechamiento de sus propiedades físicas o químicas.",
             "atributos": [
@@ -81,6 +83,7 @@
           },
           {
             "nombre": "Área de explotación hidrocarburífera",
+            "codigo": 10103,
             "geometria": "Polígono",
             "definicion": "Área donde se efectúa una actividad extractiva de origen hidrocarburífera para su aprovechamiento económico.",
             "atributos": [
@@ -104,6 +107,7 @@
           },
           {
             "nombre": "Pozo hidrocarburífero",
+            "codigo": 10104,
             "geometria": "Punto",
             "definicion": "Perforación realizada con el objetivo de realizar la extracción de hidrocarburos líquidos o gaseosos.",
             "atributos": [
@@ -135,6 +139,7 @@
           },
           {
             "nombre": "Pozo de agua",
+            "codigo": 10105,
             "geometria": "Punto",
             "definicion": "Excavación o perforación hecha en la tierra con el objetivo de extraer agua para diversos usos.",
             "atributos": [
@@ -150,6 +155,7 @@
           },
           {
             "nombre": "Mina de extracción",
+            "codigo": 10106,
             "geometria": "Punto/Polígono",
             "definicion": "Lugar de explotación de sustancias minerales de primera y segunda categoría.",
             "atributos": [
@@ -165,6 +171,7 @@
           },
           {
             "nombre": "Cantera",
+            "codigo": 10107,
             "geometria": "Punto/Polígono",
             "definicion": "Explotación generalmente a cielo abierto de sustancias minerales de tercera categoría, a partir de la cual se obtienen rocas industriales, ornamentales y otros materiales. Una cantera puede tener más de una cava.",
             "atributos": [
@@ -211,6 +218,7 @@
         "objetos": [
           {
             "nombre": "Fábrica",
+            "codigo": 10201,
             "geometria": "Punto",
             "definicion": "Lugar que posee Instalaciones donde se realiza un conjunto de actividades técnicas destinadas a producir bienes materiales transformando materias primas. Incluye planta de ensamble, entre otros. No incluye astillero, matadero ni establecimiento agroindustrial.",
             "atributos": [
@@ -242,6 +250,7 @@
           },
           {
             "nombre": "Planta de tratamiento de efluentes cloacales",
+            "codigo": 10202,
             "geometria": "Polígono",
             "definicion": "Instalaciones destinadas al tratamiento de aguas servidas.",
             "atributos": [
@@ -269,6 +278,7 @@
           },
           {
             "nombre": "Astillero",
+            "codigo": 10203,
             "geometria": "Punto/Polígono",
             "definicion": "Sitio ubicado al lado del mar o corriente de agua, en la que se construyen o reparan buques.",
             "atributos": [
@@ -296,6 +306,7 @@
           },
           {
             "nombre": "Planta potabilizadora de agua",
+            "codigo": 10204,
             "geometria": "Punto/Polígono",
             "definicion": "Instalaciones cuya función es la producción de agua para consumo humano.",
             "atributos": [
@@ -323,6 +334,7 @@
           },
           {
             "nombre": "Área de fabricación y procesamiento",
+            "codigo": 10205,
             "geometria": "Punto / Polígono",
             "definicion": "Área con instalaciones para producción o procesamiento de materias primas, transformándolas en bienes o productos utilizables en otras actividades. Incluye parques industriales, polos petroquímicos, entre otros.",
             "atributos": [
@@ -346,6 +358,7 @@
           },
           {
             "nombre": "Pileta de tratamiento",
+            "codigo": 10206,
             "geometria": "Punto/Polígono",
             "definicion": "Depósito destinado al almacenamiento de aguas residuales para su tratamiento.",
             "atributos": [
@@ -372,6 +385,7 @@
         "objetos": [
           {
             "nombre": "Área de actividad agrícola",
+            "codigo": 10301,
             "geometria": "Polígono",
             "definicion": "Área donde se realizan actividades productivas con el fin de obtener materias primas de origen vegetal a través de los cultivos sembrados.",
             "atributos": [
@@ -395,6 +409,7 @@
           },
           {
             "nombre": "Área de actividad  pecuaria",
+            "codigo": 10302,
             "geometria": "Polígono",
             "definicion": "Área donde se realiza un proceso de transformación de la materia prima proporcionada por la naturaleza, en este caso el animal y se obtiene, de la aplicación de capital y trabajo del hombre, un producto para satisfacer sus necesidades.",
             "atributos": [
@@ -418,6 +433,7 @@
           },
           {
             "nombre": "Rodal forestal",
+            "codigo": 10303,
             "geometria": "Polígono",
             "definicion": "Unidad forestal establecida mediante plantación y / o siembra durante el proceso de forestación o reforestación. Puede estar formado por: especies introducidas (todos los rodales plantados) o masas de especies autóctonas sujetas a una explotación intensiva, que cumplen los siguientes requisitos: una o dos especies en el momento de la plantación, clase de edad homogénea y espaciamiento regular.",
             "atributos": [
@@ -429,6 +445,7 @@
           },
           {
             "nombre": "Área de riesgo agropecuario",
+            "codigo": 10304,
             "geometria": "Polígono",
             "definicion": "Área caracterizada por la combinación de la probabilidad de que se produzca un evento y sus consecuencias negativas sobre la actividad agropecuaria. Principalmente son los riesgos derivados del impacto del clima.",
             "atributos": [
@@ -440,6 +457,7 @@
           },
           {
             "nombre": "Barrera sanitaria",
+            "codigo": 10305,
             "geometria": "Polígono",
             "definicion": "Lugar físico establecido por algún organismo, en donde se aplican medidas sanitarias para la protección de áreas en riesgo.",
             "atributos": [
@@ -463,6 +481,7 @@
           },
           {
             "nombre": "Frigorífico, matadero",
+            "codigo": 10306,
             "geometria": "Punto",
             "definicion": "Establecimiento donde se lleva a cabo la faena de animales y / o el proceso productivo posterior a la matanza. Cuenta con cámara frigorífica en el predio en el que funciona y en él se pueden efectuar o no tareas de elaboración y / o industrialización. ",
             "atributos": [
@@ -498,6 +517,7 @@
           },
           {
             "nombre": "Establecimiento agroindustrial",
+            "codigo": 10307,
             "geometria": "Punto",
             "definicion": "Estructura dedicada a una serie de actividades de manufacturación mediante las cuales se elaboran materias primas y productos intermedios derivados del sector agrícola. La agroindustria significa así la transformación de productos procedentes de la agricultura, la actividad forestal y la pesca.",
             "atributos": [
@@ -532,6 +552,7 @@
         "objetos": [
           {
             "nombre": "Central eléctrica",
+            "codigo": 10401,
             "geometria": "Punto/Polígono",
             "definicion": "Edificio y equipamiento necesario para la generación de energía eléctrica.",
             "atributos": [
@@ -563,6 +584,7 @@
           },
           {
             "nombre": "Línea de transmisión eléctrica",
+            "codigo": 10402,
             "geometria": "Línea",
             "definicion": "Sistema de cableado que transmite o distribuye energía eléctrica.",
             "atributos": [
@@ -594,6 +616,7 @@
           },
           {
             "nombre": "Planta transformadora",
+            "codigo": 10403,
             "geometria": "Punto/Polígono",
             "definicion": "Planta que se encuentra junto a las centrales generadoras o en la periferia de las diversas zonas de consumo, donde se transforma la tensión de la energía eléctrica.",
             "atributos": [
@@ -628,6 +651,7 @@
         "objetos": [
           {
             "nombre": "Torre de comunicación",
+            "codigo": 10501,
             "geometria": "Punto",
             "definicion": "Estructura metálica de gran altura que se utiliza para sostener antenas con fines de transmisión o recepción de ondas electromagnéticas. ",
             "atributos": [
@@ -651,6 +675,7 @@
           },
           {
             "nombre": "Antena",
+            "codigo": 10502,
             "geometria": "Punto",
             "definicion": "Dispositivo diseñado con el objetivo de emitir o recibir ondas electromagnéticas. Está ubicado sobre el suelo. (IDECOM 2022)",
             "atributos": [
@@ -694,6 +719,7 @@
           },
           {
             "nombre": "Traza de fibra óptica",
+            "codigo": 10503,
             "geometria": "Línea",
             "definicion": "Representa la traza de los troncales de tendidos de fibra óptica de la Red Federal de Fibra Óptica (ReFeFO) - (IDECOM 2022)",
             "atributos": [
@@ -721,6 +747,7 @@
           },
           {
             "nombre": "Nodo de fibra óptica",
+            "codigo": 10504,
             "geometria": "Punto",
             "definicion": "Los nodos son todos aquellos puntos de conexión físicos en la fibra óptica y son dispositivos que permiten la comunicación óptica bidireccional entre el usuario de una red coaxial y un operador cuya red troncal es de fibra óptica. En esta gama también se incluyen receptores ópticos como equipos terminales de usuario. (IDECOM 2022)",
             "atributos": [
@@ -730,7 +757,7 @@
               },
               {
                 "codigo": "BA1",
-                "denominacion": "Código de localidad"
+                "denominacion": "Codigo de localidad"
               },
               {
                 "codigo": "FUN",
@@ -759,6 +786,7 @@
         "objetos": [
           {
             "nombre": "Ducto",
+            "codigo": 10601,
             "geometria": "Línea",
             "definicion": "Serie de tubos conectados para el transporte de sólidos, líquidos o gases por bombeo. No incluye acueducto.",
             "atributos": [
@@ -790,6 +818,7 @@
           },
           {
             "nombre": "Chimenea",
+            "codigo": 10602,
             "geometria": "Punto",
             "definicion": "Conducto o cañón de sillería, hierro u hormigón de forma cónica truncada, sección circular, que permite la ventilación o evacuación de los gases de combustión.",
             "atributos": [
@@ -805,6 +834,7 @@
           },
           {
             "nombre": "Elevador de Granos",
+            "codigo": 10603,
             "geometria": "Punto",
             "definicion": "Estructura que eleva y transportan los granos de manera vertical y horizontal entre las diferentes operaciones de la planta de almacenaje de granos. (Agroindustria,  2018)",
             "atributos": [
@@ -839,6 +869,7 @@
         "objetos": [
           {
             "nombre": "Silo",
+            "codigo": 10701,
             "geometria": "Punto",
             "definicion": "Construcción  en la cual se almacenan grandes cantidades de granos secos. Construcción de estructura cilíndrica,  destinada al almacenamiento de granos, semillas, harinas, etc. Puede ser de chapa, hormigón, mampostería o cualquier otro material. (INDEC, CNA 2002)",
             "atributos": [
@@ -854,6 +885,7 @@
           },
           {
             "nombre": "Tanque de combustible",
+            "codigo": 10702,
             "geometria": "Punto/Polígono",
             "definicion": "Depósito destinado a almacenar combustibles líquidos o gaseosos para su posterior utilización.",
             "atributos": [
@@ -876,6 +908,7 @@
         "objetos": [
           {
             "nombre": "Vertedero, basurero",
+            "codigo": 10801,
             "geometria": "Polígono",
             "definicion": "Área destinada al depósito de materiales de desecho, sin tratamiento previo.",
             "atributos": [
@@ -903,6 +936,7 @@
           },
           {
             "nombre": "Relleno sanitario",
+            "codigo": 10802,
             "geometria": "Polígono",
             "definicion": "Área destinada al depósito definitivo de desechos con tratamiento ingenieril.",
             "atributos": [
@@ -930,6 +964,7 @@
           },
           {
             "nombre": "Planta de tratamiento de residuos",
+            "codigo": 10803,
             "geometria": "Polígono",
             "definicion": "Instalaciones donde se realiza algún tipo de clasificación o tratamiento a los residuos. Incluye plantas de residuos patológicos plantas recicladoras, entre otros.",
             "atributos": [
@@ -953,6 +988,7 @@
           },
           {
             "nombre": "Puesto separador de residuos",
+            "codigo": 10804,
             "geometria": "Punto",
             "definicion": "Contenedores destinados a la deposición diferenciada de residuos domicialiarios. (IDETDF 2022)",
             "atributos": [
@@ -983,6 +1019,7 @@
         "objetos": [
           {
             "nombre": "Cotos de caza",
+            "codigo": 10901,
             "geometria": "Polígono",
             "definicion": "Superficie de terreno suceptible de aprovechamiento cinegético organizado con o sin fines de lucro, para un uso sustentable de la fauna silvestre, que haya sido registrado como tal por la autoridad competente. (Ley 1.194 Prov. De La Pampa) - (IDELP 2022)",
             "atributos": [
@@ -1006,6 +1043,7 @@
           },
           {
             "nombre": "Campos autorizados",
+            "codigo": 10902,
             "geometria": "Polígono",
             "definicion": "Son aquellos predios con alambrados perimetrales o interiores que contengan animales silvestres, donde se realice el manejo cinegético. Predios rurales o subrurales que se encuentren a mas de 2km de los centros poblados. (Ley 1,194 Prov. De la Pampa) - (IDELP 2022)",
             "atributos": [
@@ -1043,6 +1081,7 @@
         "objetos": [
           {
             "nombre": "Edificio de comunicaciones",
+            "codigo": 20101,
             "geometria": "Punto",
             "definicion": "Edificio público destinado a la transmisión y recepción de mensajes realizados por distintas tecnologías y medios.",
             "atributos": [
@@ -1070,6 +1109,7 @@
           },
           {
             "nombre": "Sitio de interés",
+            "codigo": 20102,
             "geometria": "Punto/Polígono",
             "definicion": "Lugar declarado de importancia o de interés. Incluye sitio arqueológico, sitio histórico, entre otros. No incluye ruina.",
             "atributos": [
@@ -1093,6 +1133,7 @@
           },
           {
             "nombre": "Asentamiento humano",
+            "codigo": 20103,
             "geometria": "Punto",
             "definicion": "Porción del territorio en donde se asienta la población o se evidencia la presencia de una acción estatal. Se caracteriza por presentar viviendas, aunque estén deshabitadas, edificios donde se asientan dependencias oficiales, edificios donde se concentran las actividades administrativas de explotaciones productivas o alguna infraestructura importante. ",
             "atributos": [
@@ -1118,7 +1159,7 @@
               },
               {
                 "codigo": "BA1",
-                "denominacion": "Código de localidad"
+                "denominacion": "Codigo de localidad"
               },
               {
                 "codigo": "TYA",
@@ -1132,6 +1173,7 @@
           },
           {
             "nombre": "Planta urbana",
+            "codigo": 20104,
             "geometria": "Polígono",
             "definicion": "Área urbana aproximada que incluye la zona contigua de amanzanamiento edificado, cuyos límites son reconocibles.",
             "atributos": [
@@ -1155,6 +1197,7 @@
           },
           {
             "nombre": "Ruina",
+            "codigo": 20105,
             "geometria": "Punto/Polígono",
             "definicion": "Construcciones semidestruidas por acción del tiempo, antrópica o acontecimiento natural, que tienen reconocido valor histórico.",
             "atributos": [
@@ -1178,6 +1221,7 @@
           },
           {
             "nombre": "Casco de estancia",
+            "codigo": 20106,
             "geometria": "Punto",
             "definicion": "Infraestructura principal, destinada a la vivienda, de un establecimiento rural cuyo principal uso es la cria extensiva de ganado, incluyendo estructuras y reducidas zonas de cultivos. (IDETDF 2022)",
             "atributos": [
@@ -1208,6 +1252,7 @@
         "objetos": [
           {
             "nombre": "Cementerio",
+            "codigo": 20201,
             "geometria": "Punto/Polígono",
             "definicion": "Espacio público o privado reservado para dar sepultura. Incluye cementerio parque, entre otros.",
             "atributos": [
@@ -1239,6 +1284,7 @@
           },
           {
             "nombre": "Refugio",
+            "codigo": 20202,
             "geometria": "Punto",
             "definicion": "Estructura destinada a dar albergue eventualmente en zonas carentes de medios o bajo condiciones adversas.",
             "atributos": [
@@ -1266,6 +1312,7 @@
           },
           {
             "nombre": "Monumento",
+            "codigo": 20203,
             "geometria": "Punto",
             "definicion": "Obra arquitectónica o artística, sea conmemorativa o histórica. Incluye estatua, fuente, busto, inscripción, monolito, calvario, entre otros.",
             "atributos": [
@@ -1289,6 +1336,7 @@
           },
           {
             "nombre": "Espacio verde",
+            "codigo": 20204,
             "geometria": "Polígono",
             "definicion": "Terreno reservado en toda planta urbana como espacio destinado a jardines para recreo y expansión de la población. Incluye plaza, plaza seca, rotonda, entre otros.",
             "atributos": [
@@ -1319,6 +1367,7 @@
         "objetos": [
           {
             "nombre": "Complejo comercial",
+            "codigo": 20301,
             "geometria": "Polígono",
             "definicion": "Instalación que consiste en locales comerciales y puede tener locales gastronómicos, de entretenimiento y de otros rubros. Puede contar con una amplia zona de estacionamiento. Incluye supermercado, mercado, mercado concentrador, entre otros. \n",
             "atributos": [
@@ -1346,6 +1395,7 @@
           },
           {
             "nombre": "Centro de convenciones",
+            "codigo": 20302,
             "geometria": "Polígono",
             "definicion": "Área donde existen instalaciones permanentes para realizar convenciones y exhibiciones.",
             "atributos": [
@@ -1373,6 +1423,7 @@
           },
           {
             "nombre": "Alojamiento Turístico",
+            "codigo": 20303,
             "geometria": "Polígono",
             "definicion": "Establecimiento de uso público que brinda alojamiento en forma habitual o temporaria,  por un período determinado. Ley 4631/13 CABA.",
             "atributos": [
@@ -1431,6 +1482,7 @@
         "objetos": [
           {
             "nombre": "Anfiteatro",
+            "codigo": 20401,
             "geometria": "Polígono  ",
             "definicion": "Lugar descubierto en forma de semicírculo, destinado a acoger espectáculos.",
             "atributos": [
@@ -1458,6 +1510,7 @@
           },
           {
             "nombre": "Instalación deportiva y de esparcimiento",
+            "codigo": 20402,
             "geometria": "Punto/Polígono",
             "definicion": "Instalación destinada al desarrollo de actividades sociales, recreativas y deportivas. Hace referencia a club, balneario, polígono de tiro, conjunto de canchas, campo de golf, campo de polo, pista de carreras, estadio, gimnasios urbanos, postas deportiva/aerobica, entre otros. ",
             "atributos": [
@@ -1485,6 +1538,7 @@
           },
           {
             "nombre": "Centro de esquí",
+            "codigo": 20403,
             "geometria": "Punto/Polígono",
             "definicion": "Área que dispone de pistas de esquí y medios de elevación. Puede contener hoteles y espacio para usar trineos.",
             "atributos": [
@@ -1515,6 +1569,7 @@
         "objetos": [
           {
             "nombre": "Casa de gobierno",
+            "codigo": 20501,
             "geometria": "Punto",
             "definicion": "Asiento del Poder Ejecutivo de la Nación o Provincia.",
             "atributos": [
@@ -1538,6 +1593,7 @@
           },
           {
             "nombre": "Congreso",
+            "codigo": 20502,
             "geometria": "Punto",
             "definicion": "Asiento del Poder Legislativo de la Nación, Provincia o Ciudad Autónoma de Buenos Aires. También se lo denomina Legislatura.",
             "atributos": [
@@ -1561,6 +1617,7 @@
           },
           {
             "nombre": "Tribunales",
+            "codigo": 20503,
             "geometria": "Punto",
             "definicion": "Asiento de la autoridad del Poder Judicial de la Nación o Provincia.",
             "atributos": [
@@ -1584,6 +1641,7 @@
           },
           {
             "nombre": "Municipio, comuna",
+            "codigo": 20504,
             "geometria": "Punto",
             "definicion": "Asiento de la autoridad comunal.",
             "atributos": [
@@ -1607,6 +1665,7 @@
           },
           {
             "nombre": "Delegación municipal, delegación comunal",
+            "codigo": 20505,
             "geometria": "Punto",
             "definicion": "Sede de descentralización del gobierno local.",
             "atributos": [
@@ -1630,6 +1689,7 @@
           },
           {
             "nombre": "Ministerio, secretaría",
+            "codigo": 20506,
             "geometria": "Punto",
             "definicion": "Organismo ejecutivo del Estado de más alta jerarquía, inmediatamente por debajo del Presidente de la Nación en el caso del gobierno nacional, y de los gobernadores en el caso de las provincias, y del Jefe de Gobierno de la Ciudad de Buenos Aires, en el caso de la Ciudad Autónoma de Buenos Aires.",
             "atributos": [
@@ -1653,6 +1713,7 @@
           },
           {
             "nombre": "Juzgado",
+            "codigo": 20507,
             "geometria": "Punto",
             "definicion": "Tribunal u órgano jurisdiccional con asiento de un juez.  ",
             "atributos": [
@@ -1680,6 +1741,7 @@
           },
           {
             "nombre": "Registro del estado civil y capacidad de las personas",
+            "codigo": 20508,
             "geometria": "Punto",
             "definicion": "Organismo donde se asientan las actividades inherentes al registro del estado civil y la capacidad de las personas, de acuerdo a las disposiciones de leyes y decretos nacionales, provinciales y sus reglamentaciones, a fin de obtener su registración e identificación. Registra hechos vinculados al estado civil o la capacidad de las personas, como inscripción de nacimientos, matrimonios, defunciones, toma razón de aquellos hechos y actos jurídicos de carácter complementario, como adopciones, reconocimientos, divorcios, rectificaciones, anulaciones de registros y toda otra situación jurídicamente relevante que incida en las constancias registrales.",
             "atributos": [
@@ -1703,6 +1765,7 @@
           },
           {
             "nombre": "Centro cívico",
+            "codigo": 20509,
             "geometria": "Punto",
             "definicion": "Equipamiento de carácter público para la prestación de servicios y actividades socioculturales, que actúa como lugar polivalente para facilitar el encuentro de personas, con el fin de fomentar la participación activa de la ciudadanía.",
             "atributos": [
@@ -1726,6 +1789,7 @@
           },
           {
             "nombre": "Centro integrador comunitario",
+            "codigo": 20510,
             "geometria": "Punto",
             "definicion": "Espacio público de integración comunitaria, construido para el encuentro y la participación de diferentes actores que trabajan de modo intersectorial y participativo con el objetivo de promover el desarrollo local en pos de la inclusión social y del mejoramiento de la calidad de vida de las comunidades. Es una instancia de articulación entre el Gobierno nacional, provincial, municipal, organizaciones sociales y políticas y la sociedad civil.",
             "atributos": [
@@ -1749,6 +1813,7 @@
           },
           {
             "nombre": "Otro edificio gubernamental",
+            "codigo": 20511,
             "geometria": "Punto",
             "definicion": "Hace referencia a otro tipo de edificio gubernamental no contemplado en los anteriores dominios. En este caso, los atributos de toponimia podrán aclararlo. Incluye comisionado comunal, entre otros.",
             "atributos": [
@@ -1779,6 +1844,7 @@
         "objetos": [
           {
             "nombre": "Establecimiento educativo",
+            "codigo": 20601,
             "geometria": "Punto/Polígono",
             "definicion": "Es la unidad institucional donde se registra la oferta educativa, cuya creación o autorización se registra bajo un acto administrativo - ley, decreto, resolución o disposición. Existe en él una autoridad máxima coo responsable pedagógico administrativo, con una planta funcional asignada, para impartir educacióna un grupo de alumnos. El establecimiento constituye la unidad organizacional que contiene en su interior a la/s unidades educativas, las cuales forman parte del establecimiento y se corresponden con cada uno de los niveles de enseñanza para los cuales se imparte educación. Un establecimiento puede funcionar en una o varias localizaciones geográficas. En caso de ser varias se compone de sede/s y anexo/s. Sede: es la localización donde cumple sus funciones la máxima autoridad pedagógica administrativa del establecimiento. La sede puede no tener alumnos. Anexo: es la localización donde funciona una sección o grupo de secciones que depende pedagógica y administrativamente de una localización sede y funciona en otro lugar geográfico (Ministerio de Educación, Ciencia y Tecnología, 2018).",
             "atributos": [
@@ -1830,6 +1896,7 @@
           },
           {
             "nombre": "Institución universitaria",
+            "codigo": 20602,
             "geometria": "Punto/Polígono",
             "definicion": "Institución de enseñanza superior que otorga distintos grados académicos. Incluye Universidades e Institutos Universitarios. ",
             "atributos": [
@@ -1876,6 +1943,7 @@
         "objetos": [
           {
             "nombre": "Edificio religioso",
+            "codigo": 20701,
             "geometria": "Punto",
             "definicion": "Construcción destinada a la práctica de actividades religiosas.",
             "atributos": [
@@ -1903,6 +1971,7 @@
           },
           {
             "nombre": "Edificio de cultura",
+            "codigo": 20702,
             "geometria": "Punto",
             "definicion": "Construcción destinada a la manifestación de expresiones culturales y artísticas.",
             "atributos": [
@@ -1937,6 +2006,7 @@
         "objetos": [
           {
             "nombre": "Edificio de salud",
+            "codigo": 20801,
             "geometria": "Punto",
             "definicion": "Construcción destinada a la asistencia de personas. Incluye hospital, sala de primeros auxilios, puesto asistencial, dispensario, entre otros.",
             "atributos": [
@@ -1971,6 +2041,7 @@
         "objetos": [
           {
             "nombre": "Centro científico",
+            "codigo": 20901,
             "geometria": "Punto/Polígono",
             "definicion": "Instalaciones destinadas a realizar investigaciones científicas. Incluye observatorio astronómico, polo científico y tecnológico, entre otros.",
             "atributos": [
@@ -2001,6 +2072,7 @@
         "objetos": [
           {
             "nombre": "Ex centro clandestino de detencion",
+            "codigo": 21001,
             "geometria": "Punto",
             "definicion": "Lugares que funcionaron como centros clandestinos de detención, durante el terrorismo de Estado ejercido en el país hasta el 10 de diciembre de 1983. (Leyes Nacional 26691 y Provincial 13584). Se incluye toda dependencia, lugar o predio militar, policial, privado o de propiedad estatal, que durante el período mencionado, hubiera alojado detenidos en forma ilegal o clandestina. (Sec DDHH Bs As - 2019)",
             "atributos": [
@@ -2076,6 +2148,7 @@
           },
           {
             "nombre": "Comunidades indígenas",
+            "codigo": 21002,
             "geometria": "Polígono",
             "definicion": "Area de influencia aproximada de aquellas comunidades indígenas en actividad, radicadas en el actual territorio de la República Argentina, considerando que acorde al Art. Nº 2 de la Ley Nº 23.302 (y su Decreto regalmentario 155/89) \"Se entenderá como comunidades indígenas á los conjuntos de familias que se reconozcan como tales por el hecho de descender de poblaciones que habitaban el territorio nacional en la época de la conquista o colonización e indígenas o indios a los miembros de dicha comunidad. NO representa ocupación territorial efectiva (la cual se establece a través del Programa Nacional Relevamiento Territorial de Comunidades Indígena RETECI, Resolución INAI Nº 587/07, para la ejecución Ley Nacional Nº 26.160)” (CPAI - Subsec. DDHH Bs As - 2021)",
             "atributos": [
@@ -2129,6 +2202,7 @@
         "objetos": [
           {
             "nombre": "Ferrocarril",
+            "codigo": 30101,
             "geometria": "Línea",
             "definicion": "Vía férrea constituida por dos o tres rieles paralelos entre sí, sobre los cuales encajan y giran las ruedas de los trenes (incluye varios modos: ferrocarril, subterráneo, tranvía, entre otros).",
             "atributos": [
@@ -2176,6 +2250,7 @@
           },
           {
             "nombre": "Estación ferroviaria",
+            "codigo": 30102,
             "geometria": "Punto/Polígono",
             "definicion": "Instalación edilicia y demás dependencias donde regularmente se detiene el transporte ferroviario, suben y bajan pasajeros y / o mercancías. Incluye apeadero, embarcadero y parada.",
             "atributos": [
@@ -2203,6 +2278,7 @@
           },
           {
             "nombre": "Playa ferroviaria",
+            "codigo": 30103,
             "geometria": "Polígono",
             "definicion": "Lugar que contiene talleres, galpones y vías destinadas al movimiento y acoplado de formaciones ferroviarias.",
             "atributos": [
@@ -2237,6 +2313,7 @@
         "objetos": [
           {
             "nombre": "Red vial",
+            "codigo": 30201,
             "geometria": "Línea",
             "definicion": "Trayecto diseñado con una superficie especialmente preparada, que se mantiene para ser usado por vehículos generalmente a motor.",
             "atributos": [
@@ -2288,6 +2365,7 @@
           },
           {
             "nombre": "Calle",
+            "codigo": 30202,
             "geometria": "Línea",
             "definicion": "Vía de transporte para circulación en el interior de una planta urbana y que no es parte del acceso a la misma. Delimita las manzanas.",
             "atributos": [
@@ -2331,6 +2409,7 @@
           },
           {
             "nombre": "Huella",
+            "codigo": 30203,
             "geometria": "Línea",
             "definicion": "Camino de acceso y recorrido de establecimientos. Incluye caminos de poca importancia que se desprenden de caminos de tierra, caminos demarcados en loteos, entre otros.",
             "atributos": [
@@ -2346,6 +2425,7 @@
           },
           {
             "nombre": "Senda",
+            "codigo": 30204,
             "geometria": "Línea",
             "definicion": "Camino angosto de trazo sinuoso,  abierto por el tránsito de personas, vehículos y/ o animales.",
             "atributos": [
@@ -2365,6 +2445,7 @@
           },
           {
             "nombre": "Picada",
+            "codigo": 30205,
             "geometria": "Línea",
             "definicion": "Desmonte con diseño específico hecho con el objetivo de realizar estudios sísmicos, cortafuegos, gasoductos, oleoductos, u otros fines.",
             "atributos": [
@@ -2380,6 +2461,7 @@
           },
           {
             "nombre": "Línea de bus ",
+            "codigo": 30206,
             "geometria": "Línea",
             "definicion": "Recorrido de una línea de autotransporte público de pasajeros . ",
             "atributos": [
@@ -2415,6 +2497,7 @@
           },
           {
             "nombre": "Parada de bus",
+            "codigo": 30207,
             "geometria": "Punto",
             "definicion": "Parada correspondiente a una línea de servicios de autotransporte público de pasajeros.",
             "atributos": [
@@ -2442,6 +2525,7 @@
           },
           {
             "nombre": "Estación de ómnibus",
+            "codigo": 30208,
             "geometria": "Punto",
             "definicion": "Predio destinado a la maniobra de ómnibus nacionales e internacionales, carga, ascenso y descenso de pasajeros. Puede o no tener aduana.",
             "atributos": [
@@ -2476,6 +2560,7 @@
         "objetos": [
           {
             "nombre": "Transporte guiado aéreo",
+            "codigo": 30301,
             "geometria": "Línea",
             "definicion": "Sistema de transporte que consiste en cables de carga unidos entre torres en los que están suspendidas las unidades. Incluye teleférico, entre otros.",
             "atributos": [
@@ -2511,6 +2596,7 @@
           },
           {
             "nombre": "Transporte guiado terrestre",
+            "codigo": 30302,
             "geometria": "Línea",
             "definicion": "Sistema de transporte que consiste en cables conductores de la electricidad necesaria para el movimiento las unidades terrestres. Incluye trolebús, entre otros.",
             "atributos": [
@@ -2546,6 +2632,7 @@
           },
           {
             "nombre": "Estación de transporte guiado",
+            "codigo": 30303,
             "geometria": "Punto/Polígono",
             "definicion": "Instalación edilicia y demás dependencias donde regularmente se detiene el transporte guiado por cable y suben y bajan pasajeros.",
             "atributos": [
@@ -2584,6 +2671,7 @@
         "objetos": [
           {
             "nombre": "Derrota de balsa",
+            "codigo": 30401,
             "geometria": "Línea",
             "definicion": "Recorrido que sigue una balsa definido por una línea imaginaria que une dos atracaderos.",
             "atributos": [
@@ -2607,6 +2695,7 @@
           },
           {
             "nombre": "Derrota recomendada",
+            "codigo": 30402,
             "geometria": "Línea",
             "definicion": "Trayectoria o derrota no mantenida que se recomienda a todos o sólo a determinados buques. ",
             "atributos": [
@@ -2630,6 +2719,7 @@
           },
           {
             "nombre": "Puerto",
+            "codigo": 30403,
             "geometria": "Punto/Polígono",
             "definicion": "Lugar dotado de instalaciones de terminales y de transferencia para la carga y descarga de mercaderías o pasajeros. Incluye atracadero para balsas, clubes deportivos y cualquier otra instalación para transferencia de pasajeros y / o mercaderías. No incluye puerto natural.",
             "atributos": [
@@ -2661,6 +2751,7 @@
           },
           {
             "nombre": "Muelle",
+            "codigo": 30404,
             "geometria": "Línea",
             "definicion": "Obra construida sobre el agua, afianzada en el lecho acuático por medio de bases que la sostienen firmemente, para facilitar tareas de atraque de embarcaciones, carga, descarga, embarque.",
             "atributos": [
@@ -2688,6 +2779,7 @@
           },
           {
             "nombre": "Vía navegable",
+            "codigo": 30405,
             "geometria": "Línea/Polígono",
             "definicion": "Vía  definida y mantenida por autoridad competente que permite la navegación de una embarcación. Incluye traza de canales en el Río de la Plata, accesos a puertos de La Plata, Buenos Aires y Bahía Blanca, entre otros. Incluye hidrovía.",
             "atributos": [
@@ -2711,6 +2803,7 @@
           },
           {
             "nombre": "Ayuda a la navegación",
+            "codigo": 30406,
             "geometria": "Punto",
             "definicion": "Objeto flotante o terrestre instalado en un lugar en particular cuya finalidad es servir como una ayuda a la navegación o para otros fines específicos. Incluye faro, boya, baliza, semáforo de costa, señal de niebla, luces, radiofaro, señal de enfilación, sistemas de posicionamiento fijo, entre otros.",
             "atributos": [
@@ -2738,6 +2831,7 @@
           },
           {
             "nombre": "Obstáculo para la navegación",
+            "codigo": 30407,
             "geometria": "Punto/Polígono",
             "definicion": "Elemento o condición que podría impedir, obstruir, poner en peligro o constituir de otro modo un peligro para la seguridad a la navegación. Incluye naufragio, roca, fondo sucio, rompiente, escarceo, entre otros. No incluye bajo, banco.",
             "atributos": [
@@ -2768,6 +2862,7 @@
         "objetos": [
           {
             "nombre": "Aeródromo",
+            "codigo": 30501,
             "geometria": "Punto/Polígono",
             "definicion": "Zona definida sobre tierra o agua (incluidos eventuales edificios, instalaciones y equipos), cuyo propósito es ser utilizada total o parcialmente para la llegada, salida y movimiento en superficie de aeronaves y / o helicópteros.",
             "atributos": [
@@ -2789,15 +2884,15 @@
               },
               {
                 "codigo": "IKO",
-                "denominacion": "Código OACI de aeródromo"
+                "denominacion": "Codigo OACI de aeródromo"
               },
               {
                 "codigo": "ITA",
-                "denominacion": "Código IATA de aeródromo"
+                "denominacion": "Codigo IATA de aeródromo"
               },
               {
                 "codigo": "ANA",
-                "denominacion": "Código nacional de aeródromo"
+                "denominacion": "Codigo nacional de aeródromo"
               },
               {
                 "codigo": "AER",
@@ -2815,6 +2910,7 @@
           },
           {
             "nombre": "Ruta aérea ",
+            "codigo": 30502,
             "geometria": "Línea",
             "definicion": "Línea que representa el corredor aéreo definido entre el aeródromo de origen y el aeródromo de destino.",
             "atributos": [
@@ -2846,6 +2942,7 @@
           },
           {
             "nombre": "Pista ",
+            "codigo": 30503,
             "geometria": "Línea",
             "definicion": "Calzada rectangular de tierra o asfalto, definida en un campo de aviación o aeropuerto, utilizada para despegue y aterrizaje de aeronaves.",
             "atributos": [
@@ -2865,6 +2962,7 @@
           },
           {
             "nombre": "Superficie de despegue",
+            "codigo": 30504,
             "geometria": "Polígono",
             "definicion": "Espacio aéreo que debe mantenerse libre de obstáculos alrededor de un aeródromo para que puedan llevarse a cabo con seguridad las operaciones de aeronaves previstas, evitando que el aeródromo quede inutilizado por la multiplicidad de obstáculos en sus alrededores.",
             "atributos": [
@@ -2899,6 +2997,7 @@
         "objetos": [
           {
             "nombre": "Puesto de control",
+            "codigo": 30601,
             "geometria": "Punto",
             "definicion": "Lugar con instalaciones para controlar el paso, declarar y/o inspeccionar los bienes, vehículos y/o personas.",
             "atributos": [
@@ -2933,6 +3032,7 @@
         "objetos": [
           {
             "nombre": "Puente",
+            "codigo": 30701,
             "geometria": "Punto/Línea",
             "definicion": "Estructura que asegura la continuidad de una vía de transporte (red vial, calle, ferrocarril, entre otros) sobre un obstáculo natural o artificial del terreno (corriente de agua, canal, entre otros).",
             "atributos": [
@@ -2976,6 +3076,7 @@
           },
           {
             "nombre": "Alcantarilla",
+            "codigo": 30702,
             "geometria": "Punto/Línea",
             "definicion": "Estructura ingenieril en forma tubular o en bóveda que se encuentra asociada a la red de transporte y que permite el cruce de una corriente de agua u otro obstáculo.",
             "atributos": [
@@ -2991,6 +3092,7 @@
           },
           {
             "nombre": "Túnel",
+            "codigo": 30703,
             "geometria": "Punto/Línea",
             "definicion": "Paso subterráneo abierto artificialmente para establecer una comunicación a través de una montaña, por debajo de una corriente de agua u otro obstáculo.",
             "atributos": [
@@ -3022,6 +3124,7 @@
           },
           {
             "nombre": "Vado",
+            "codigo": 30704,
             "geometria": "Punto/Línea",
             "definicion": "Lugar en una corriente de agua o espejo de agua con lecho más o menos firme y poco profundo, por donde es posible pasar a pie, caballo o vehículo.",
             "atributos": [
@@ -3037,6 +3140,7 @@
           },
           {
             "nombre": "Badén",
+            "codigo": 30705,
             "geometria": "Punto/Línea",
             "definicion": "Piso artificial de roca u hormigón construido sobre el fondo natural de una corriente de agua o espejo de agua para facilitar su cruce.",
             "atributos": [
@@ -3052,6 +3156,7 @@
           },
           {
             "nombre": "Pasarela",
+            "codigo": 30706,
             "geometria": "Punto/Línea",
             "definicion": "Estructura que permite el paso de peatones salvando algún obstáculo.",
             "atributos": [
@@ -3067,6 +3172,7 @@
           },
           {
             "nombre": "Cobertizo para nieve",
+            "codigo": 30707,
             "geometria": "Punto/Línea",
             "definicion": "Estructura de madera, mampostería u hormigón, construida en los faldeos de los cerros, para proteger a las vías de transporte de la acumulación de nieve, derrumbes y avalanchas.",
             "atributos": [
@@ -3086,6 +3192,7 @@
           },
           {
             "nombre": "Guardaganado",
+            "codigo": 30708,
             "geometria": "Punto",
             "definicion": "Reja de hierro o madera colocada transversalmente sobre un lugar de tránsito vial, para impedir el paso del ganado.",
             "atributos": [
@@ -3101,6 +3208,7 @@
           },
           {
             "nombre": "Cruce ferrovial",
+            "codigo": 30709,
             "geometria": "Punto",
             "definicion": "Intersección definida entre una red vial o calle y una vía férrea.",
             "atributos": [
@@ -3127,6 +3235,7 @@
         "objetos": [
           {
             "nombre": "Estación de servicio",
+            "codigo": 30801,
             "geometria": "Punto",
             "definicion": "Instalación ubicada a la vera de una vía de comunicación, destinada a la provisión de combustible y asistencia mecánica a automotores.",
             "atributos": [
@@ -3154,6 +3263,7 @@
           },
           {
             "nombre": "Estación de peaje",
+            "codigo": 30802,
             "geometria": "Punto",
             "definicion": "Instalación situada sobre una vía de transporte con el fin de cobrar la tasa correspondiente al mantenimiento, mejoramiento y conservación de la vía en cuestión.",
             "atributos": [
@@ -3181,6 +3291,7 @@
           },
           {
             "nombre": "Estación de pesaje",
+            "codigo": 30803,
             "geometria": "Punto",
             "definicion": "Instalación pública ubicada al costado de una vía de comunicación, provista de una báscula o balanza destinada al pesaje de vehículos de transporte.",
             "atributos": [
@@ -3208,6 +3319,7 @@
           },
           {
             "nombre": "Parador",
+            "codigo": 30804,
             "geometria": "Punto",
             "definicion": "Predio a la vera de una vía de comunicación, con infraestructura de comedor, minimercados, duchas, descanso, estacionamientos y comunicaciones. ",
             "atributos": [
@@ -3231,6 +3343,7 @@
           },
           {
             "nombre": "Indicador de kilómetros",
+            "codigo": 30805,
             "geometria": "Punto",
             "definicion": "Mojón de madera, metal o cemento que indica la distancia en kilómetros desde ese punto al origen. Se sitúan alternativamente a un lado y otro en vías de transporte y ferrocarril. ",
             "atributos": [
@@ -3246,6 +3359,7 @@
           },
           {
             "nombre": "Estación de bicicletas",
+            "codigo": 30806,
             "geometria": "Punto",
             "definicion": "Estructura diseñada para el retiro y devolución de bicicletas públicas que pertenece a la infraestructura del sistema de transporte público. Una estación puede ser o no automática.",
             "atributos": [
@@ -3261,6 +3375,7 @@
           },
           {
             "nombre": "Bicisenda",
+            "codigo": 30807,
             "geometria": "Línea",
             "definicion": "Sector señalizado y especialmente acondicionado en aceras y espacios verdes para la circulación de ciclo rodados. Las bicisendas se pueden instalar siempre que no generen conflictos con la circulación peatonal y sólo cuando en los tramos de arterias correspondientes no exista posibilidad de demarcar una ciclovía o ciclocarril.",
             "atributos": [
@@ -3276,6 +3391,7 @@
           },
           {
             "nombre": "Ciclovía",
+            "codigo": 30808,
             "geometria": "Línea",
             "definicion": "Sector de la calzada señalizado especialmente con una separación que permita la circulación exclusiva de ciclo rodados (vehículo no motorizado de dos o más ruedas, impulsado por mecanismos con el esfuerzo de quien o quienes lo utilizan).",
             "atributos": [
@@ -3291,6 +3407,7 @@
           },
           {
             "nombre": "Centro de transbordo",
+            "codigo": 30809,
             "geometria": "Polígono",
             "definicion": "Nodo central del sistema de transporte que permite la articulación entre redes de los distintos modos o entre líneas de un mismo modo de transporte, organizando el transporte. También se lo denomina estación intermodal.",
             "atributos": [
@@ -3314,6 +3431,7 @@
           },
           {
             "nombre": "Puesto de boleto electrónico",
+            "codigo": 30810,
             "geometria": "Punto",
             "definicion": "Punto de venta y / o recarga de dispositivos de los sistemas de pago electrónico de boleto.",
             "atributos": [
@@ -3347,6 +3465,7 @@
         "objetos": [
           {
             "nombre": "Océano",
+            "codigo": 40101,
             "geometria": "Polígono",
             "definicion": "Vasta extensión de agua salada que ocupa cuencas oceánicas.",
             "atributos": [
@@ -3370,6 +3489,7 @@
           },
           {
             "nombre": "Costa",
+            "codigo": 40102,
             "geometria": "Línea",
             "definicion": "Es la línea del nivel de agua más alto. Si existe una playa, la línea de costa es el límite de la playa hacia el lado de la tierra, por lo que corresponde aproximadamente a la marca de agua más alta de las mareas más altas.",
             "atributos": [
@@ -3381,6 +3501,7 @@
           },
           {
             "nombre": "Playa",
+            "codigo": 40103,
             "geometria": "Polígono",
             "definicion": "Área ribereña de mar, corriente de agua o espejo de agua, que por lo general se caracteriza por ser una superficie casi plana de arena, conchilla o grava.",
             "atributos": [
@@ -3408,6 +3529,7 @@
           },
           {
             "nombre": "Accidente costero",
+            "codigo": 40104,
             "geometria": "Línea",
             "definicion": "Configuración geomorfológica de la zona litoral. ",
             "atributos": [
@@ -3435,6 +3557,7 @@
           },
           {
             "nombre": "Isla",
+            "codigo": 40105,
             "geometria": "Punto/Polígono",
             "definicion": "Parte de la superficie terrestre rodeada de agua y de dimensiones menores que un continente. ",
             "atributos": [
@@ -3465,6 +3588,7 @@
         "objetos": [
           {
             "nombre": "Curva batimétrica",
+            "codigo": 40301,
             "geometria": "Línea",
             "definicion": "Línea trazada en un espejo de agua, corriente de agua, mar u océano, que une puntos de igual profundidad respecto de un nivel de referencia definido. También se la denomina isobata.",
             "atributos": [
@@ -3480,6 +3604,7 @@
           },
           {
             "nombre": "Accidente submarino",
+            "codigo": 40302,
             "geometria": "Punto/Polígono",
             "definicion": "Elemento geomorfológico del fondo marino. Incluye cañadón submarino, banco (Burdwood/Namuncurá, entre otros), cordilleras submarinas, entre otros.",
             "atributos": [
@@ -3510,6 +3635,7 @@
         "objetos": [
           {
             "nombre": "Mareógrafo, hidrómetro",
+            "codigo": 40601,
             "geometria": "Punto",
             "definicion": "Dispositivo instalado con el fin de registrar las variaciones del nivel del agua a través del tiempo.",
             "atributos": [
@@ -3533,6 +3659,7 @@
           },
           {
             "nombre": "Estación de aforo",
+            "codigo": 40602,
             "geometria": "Punto",
             "definicion": "Dispositivo utilizado para determinar la velocidad y el caudal del agua en una corriente de agua o canal.",
             "atributos": [
@@ -3544,6 +3671,7 @@
           },
           {
             "nombre": "Correntómetro, olígrafo",
+            "codigo": 40603,
             "geometria": "Punto",
             "definicion": "Dispositivo que sirve para medir la velocidad y la dirección de las corrientes de agua, mareas, oleaje y / o viento, especialmente en las aguas marinas.",
             "atributos": [
@@ -3555,6 +3683,7 @@
           },
           {
             "nombre": "Boya",
+            "codigo": 40604,
             "geometria": "Punto",
             "definicion": "Cuerpo flotante sujeto al fondo del mar que se coloca como señal, con fines de investigación (INIDEP 2022)",
             "atributos": [
@@ -3574,6 +3703,7 @@
           },
           {
             "nombre": "Punto, estación de muestreo",
+            "codigo": 40605,
             "geometria": "Punto",
             "definicion": "Dispositivo que se utiliza en la medición de variables oceanográficas, pueden ser fijos o móviles o estar \"adjuntos\" a otro (INIDEP 2022)",
             "atributos": [
@@ -3591,7 +3721,7 @@
               },
               {
                 "codigo": "CE1",
-                "denominacion": "Código de estación"
+                "denominacion": "Codigo de estación"
               },
               {
                 "codigo": "LAG",
@@ -3633,6 +3763,7 @@
           },
           {
             "nombre": "Área de interés",
+            "codigo": 40606,
             "geometria": "Polígono",
             "definicion": "Comprende la definción de objetivos de una colección de observaciones y/o el despliegue de instalaciones de monitoreo en el océano. por lo general tiene una perspectiva a largo plazo durante al menos algunos años, cubre un área de interés y se basa en legislación medioambiental (INIDEP 2022)",
             "atributos": [
@@ -3664,6 +3795,7 @@
           },
           {
             "nombre": "Campaña de investigación",
+            "codigo": 40607,
             "geometria": "Línea",
             "definicion": "Travesía realizada en un lugar determinado por una embarcación con diferentes instrumentos de medición en el océano (INIDEP 2022)",
             "atributos": [
@@ -3673,7 +3805,7 @@
               },
               {
                 "codigo": "CBI",
-                "denominacion": "Código de Buque de investigacion"
+                "denominacion": "Codigo de Buque de investigacion"
               },
               {
                 "codigo": "IDR",
@@ -3706,6 +3838,7 @@
         "objetos": [
           {
             "nombre": "Acueducto",
+            "codigo": 41101,
             "geometria": "Línea",
             "definicion": "Conducto artificial que transporta agua en forma de flujo continuo con el objetivo de que esta sea accesible para su consumo u otros usos.",
             "atributos": [
@@ -3737,6 +3870,7 @@
           },
           {
             "nombre": "Canal",
+            "codigo": 41102,
             "geometria": "Línea/Polígono",
             "definicion": "Excavación artificial sin flujo o con flujo controlado, construido con el objetivo de transportar agua.",
             "atributos": [
@@ -3764,6 +3898,7 @@
           },
           {
             "nombre": "Corriente de agua",
+            "codigo": 41103,
             "geometria": "Línea/Polígono",
             "definicion": "Flujo natural de agua que sigue los desniveles del terreno, siendo arreico o desembocando en otra corriente de agua, en un espejo de agua o en el mar.",
             "atributos": [
@@ -3799,6 +3934,7 @@
           },
           {
             "nombre": "Acequia, zanja, zanjón",
+            "codigo": 41104,
             "geometria": "Línea",
             "definicion": "Excavación longilínea construida en la tierra, con o sin revestimiento, con el objetivo de conducir, drenar, irrigar o controlar el agua para riego u otros usos.",
             "atributos": [
@@ -3822,6 +3958,7 @@
           },
           {
             "nombre": "Dique",
+            "codigo": 41105,
             "geometria": "Punto/Línea",
             "definicion": "Terraplén natural o artificial destinado a detener o estancar el escurrimiento del agua en su curso, a los efectos de su almacenamiento para fines rurales o industriales.",
             "atributos": [
@@ -3849,6 +3986,7 @@
           },
           {
             "nombre": "Rápido",
+            "codigo": 41106,
             "geometria": "Punto/Línea",
             "definicion": "Sector de una corriente de agua donde ésta fluye con gran rapidez, debido a alteraciones provocadas por desniveles u obstrucciones en su lecho.",
             "atributos": [
@@ -3872,6 +4010,7 @@
           },
           {
             "nombre": "Embalse",
+            "codigo": 41107,
             "geometria": "Polígono",
             "definicion": "Masa de agua retenida por una estructura artificial para su posterior aprovechamiento.",
             "atributos": [
@@ -3907,6 +4046,7 @@
           },
           {
             "nombre": "Espejo de agua",
+            "codigo": 41108,
             "geometria": "Polígono",
             "definicion": "Cuerpo natural o artificial de agua, dulce o salada, cuyo aporte proviene de corrientes de agua, afloramientos subterráneos o precipitaciones. Quedan excluidos los embalses y los embalses rurales.",
             "atributos": [
@@ -3942,6 +4082,7 @@
           },
           {
             "nombre": "Fuente natural",
+            "codigo": 41109,
             "geometria": "Punto",
             "definicion": "Flujo natural de agua formado por drenaje en la superficie o por afloramiento de la freática subterránea.",
             "atributos": [
@@ -3969,6 +4110,7 @@
           },
           {
             "nombre": "Catarata, cascada, salto",
+            "codigo": 41110,
             "geometria": "Punto/Línea",
             "definicion": "Caída vertical de un curso de agua, producida por brusco desnivel del cauce. ",
             "atributos": [
@@ -3992,6 +4134,7 @@
           },
           {
             "nombre": "Muro de embalse",
+            "codigo": 41111,
             "geometria": "Punto/Línea",
             "definicion": "Represa construida transversalmente a una corriente de agua o canal para contener o controlar el caudal.",
             "atributos": [
@@ -4007,6 +4150,7 @@
           },
           {
             "nombre": "Humedal",
+            "codigo": 41112,
             "geometria": "Polígono",
             "definicion": "Áreas del territorio que se caracterizan por la presencia temporaria o permanente de agua, suelos o sustratos característicos y biota adaptada a estas condiciones, comúnmente plantas hidrófitas. Incluye las extensiones de marismas, pantanos y turberas, o superficies cubiertas de aguas, sean éstas de régimen natural o artificial, permanentes o temporales, estancadas o corrientes, dulces, salobres o saladas, incluidas las extensiones de agua marina cuya profundidad en marea baja no exceda de seis metros.",
             "atributos": [
@@ -4034,6 +4178,7 @@
           },
           {
             "nombre": "Tajamar",
+            "codigo": 41113,
             "geometria": "Línea",
             "definicion": "Obra que une dos laderas que se aproximan mediante una cortina de tierra bien apisonada, con el objetivo de detener el escurrimiento del agua de lluvia, formando un espejo de agua.",
             "atributos": [
@@ -4057,6 +4202,7 @@
           },
           {
             "nombre": "Cuenca hidrográfica",
+            "codigo": 41114,
             "geometria": "Polígono",
             "definicion": "Territorio drenado por un único sistema de drenaje natural, es decir, que a través de un curso hídrico, sus aguas pueden dar a un cuerpo de agua, infiltrarse o evaporarse.​ Una cuenca hidrográfica es delimitada por la línea de las cumbres, también llamada divisoria de aguas.",
             "atributos": [
@@ -4092,6 +4238,7 @@
           },
           {
             "nombre": "Acuífero",
+            "codigo": 41115,
             "geometria": "Polígono",
             "definicion": "Estrato o formación geológica permeable que permite la circulación y el almacenamiento de agua subterránea por sus poros y grietas. Incluye el acuífero Guaraní y el acuífero Puelche, entre otros.",
             "atributos": [
@@ -4122,6 +4269,7 @@
         "objetos": [
           {
             "nombre": "Frente marino",
+            "codigo": 41201,
             "geometria": "Línea",
             "definicion": "Limite, variable en tiempo y espacio, entre dos masas de agua de características fisicas diferentes (DFDD)",
             "atributos": [
@@ -4141,6 +4289,7 @@
           },
           {
             "nombre": "Isolínea marina",
+            "codigo": 41202,
             "geometria": "Línea",
             "definicion": "Curva que representa un valor particular de algún fenómeno físico o químico marino como la temperatura, la salinidad o la altura de las olas.",
             "atributos": [
@@ -4160,6 +4309,7 @@
           },
           {
             "nombre": "Trayectoria",
+            "codigo": 41203,
             "geometria": "Línea/Multipunto",
             "definicion": "Representación gráfica de las características fisico/quimicas del agua a lo largo de una trayectoria definida (INIDEP 2022)",
             "atributos": [
@@ -4193,6 +4343,7 @@
         "objetos": [
           {
             "nombre": "Curva de nivel",
+            "codigo": 50101,
             "geometria": "Línea",
             "definicion": "Línea que une puntos que tienen el mismo valor de altitud respecto al nivel medio del mar. También se la denomina isohipsa o curva hipsométrica.",
             "atributos": [
@@ -4216,6 +4367,7 @@
           },
           {
             "nombre": "Punto acotado",
+            "codigo": 50102,
             "geometria": "Punto",
             "definicion": "Punto del terreno que ha sido medido altimétricamente y no está materializado en el terreno.",
             "atributos": [
@@ -4246,6 +4398,7 @@
         "objetos": [
           {
             "nombre": "Abra, paso, portillo, portezuelo",
+            "codigo": 50201,
             "geometria": "Punto",
             "definicion": "Depresión del terreno entre dos alturas o cerros, que constituye un portal en unos casos o simplemente una puerta de paso a valles situados a ambos lados.",
             "atributos": [
@@ -4269,6 +4422,7 @@
           },
           {
             "nombre": "Caverna, gruta, cueva",
+            "codigo": 50202,
             "geometria": "Punto",
             "definicion": "Cavidad subterránea y profunda, de formación natural o artificial, producida en la montaña o en la roca.",
             "atributos": [
@@ -4292,6 +4446,7 @@
           },
           {
             "nombre": "Cerro",
+            "codigo": 50203,
             "geometria": "Punto",
             "definicion": "Elevación que sobresale de los lineamientos serranos o montañosos. Incluye monte, morro, nevado, pico, entre otros. No incluye volcán. El nevado es un cerro de gran altura que posee nieves perpetuas en su cumbre y permanece blanco durante todo el año. Un pico es una elevación montañosa, de cumbre aguda y puntiaguda con flancos escarpados. ",
             "atributos": [
@@ -4319,6 +4474,7 @@
           },
           {
             "nombre": "Hoya",
+            "codigo": 50204,
             "geometria": "Punto",
             "definicion": "Depresión cerrada del terreno, en donde puede existir presencia de agua. ",
             "atributos": [
@@ -4346,6 +4502,7 @@
           },
           {
             "nombre": "Médano, duna",
+            "codigo": 50205,
             "geometria": "Polígono",
             "definicion": "Acumulación de sedimentos sueltos, tamaño arena, que puede trasladarse por acción del viento. Puede estar en ambiente continental o costero.",
             "atributos": [
@@ -4369,6 +4526,7 @@
           },
           {
             "nombre": "Meseta",
+            "codigo": 50206,
             "geometria": "Polígono",
             "definicion": "Forma de relieve elevada, plana y generalmente de gran extensión, limitada por barrancas, circundada por valles. ",
             "atributos": [
@@ -4396,6 +4554,7 @@
           },
           {
             "nombre": "Mogote",
+            "codigo": 50207,
             "geometria": "Punto",
             "definicion": "Elevación del terreno, cónica, aislada, y con su parte superior trunca.",
             "atributos": [
@@ -4423,6 +4582,7 @@
           },
           {
             "nombre": "Sierra",
+            "codigo": 50208,
             "geometria": "Línea",
             "definicion": "Secuencia eslabonada de cerros que en conjunto presentan disposición longilínea y altitudes intermedias entre la cordillera y montañas. Incluye la serranía, entendida como una extensión sinónima de sierra, entre otros.",
             "atributos": [
@@ -4450,6 +4610,7 @@
           },
           {
             "nombre": "Barranca",
+            "codigo": 50209,
             "geometria": "Línea",
             "definicion": "Desnivel pronunciado del terreno con pendiente variable y de origen diverso. En el caso de costa marina se denomina acantilado. En el caso de origen fluvial se denomina barranca. Si se encuentra en terreno no anexo a una corriente de agua o mar se denomina escarpa o barda. ",
             "atributos": [
@@ -4477,6 +4638,7 @@
           },
           {
             "nombre": "Quebrada, cañadón, garganta",
+            "codigo": 50210,
             "geometria": "Línea",
             "definicion": "Valle de paredes abruptas más o menos profundo que generalmente puede estar surcado por un curso de agua permanente o temporario. Incluye cajón, entre otros.",
             "atributos": [
@@ -4500,6 +4662,7 @@
           },
           {
             "nombre": "Cordillera",
+            "codigo": 50211,
             "geometria": "Línea",
             "definicion": "Secuencia eslabonada de cadenas orográficas de considerable altura con una disposición homogénea y pertenecientes al mismo proceso orogénico.",
             "atributos": [
@@ -4527,6 +4690,7 @@
           },
           {
             "nombre": "Cordón",
+            "codigo": 50212,
             "geometria": "Línea",
             "definicion": "Grupo de elevaciones con disposición orográfica similar e igual orogenia, que forman parte de una cordillera o sistema montañoso. ",
             "atributos": [
@@ -4554,6 +4718,7 @@
           },
           {
             "nombre": "Cuchilla",
+            "codigo": 50213,
             "geometria": "Línea",
             "definicion": "Elevación de poca altura, alargada y estrecha, con cumbre convexa y con pendientes suaves hacia el llano. Incluye lomada, entre otros.",
             "atributos": [
@@ -4581,6 +4746,7 @@
           },
           {
             "nombre": "Cuesta",
+            "codigo": 50214,
             "geometria": "Línea",
             "definicion": "Parte de un relieve constituido por dos pendientes asimétricas, una abrupta y escarpada (cuesta propiamente dicha) y la opuesta, de suave inclinación.",
             "atributos": [
@@ -4608,6 +4774,7 @@
           },
           {
             "nombre": "Filo",
+            "codigo": 50215,
             "geometria": "Línea",
             "definicion": "Cima de un cordón montañoso agudo, que es divisoria de aguas.",
             "atributos": [
@@ -4635,6 +4802,7 @@
           },
           {
             "nombre": "Huaico",
+            "codigo": 50216,
             "geometria": "Polígono",
             "definicion": "Cañadón de paredes abruptas y a veces  aterrazadas, por el que suele correr un curso de agua intermitente, coincidente con la época de lluvias y avenidas. Es producto de la acción conjunta de la erosión fluvial y eólica sumada a la meteorización de terrenos impermeables desintegrados por la acción pluvial y se encuentra asociado a climas áridos. También se lo denomina guaico.",
             "atributos": [
@@ -4658,6 +4826,7 @@
           },
           {
             "nombre": "Valle",
+            "codigo": 50217,
             "geometria": "Línea",
             "definicion": " Forma de erosión fluvial cuyas laderas tienen alturas, pendientes y profundidades diversas.",
             "atributos": [
@@ -4681,6 +4850,7 @@
           },
           {
             "nombre": "Lugar geomorfológico",
+            "codigo": 50218,
             "geometria": "Línea",
             "definicion": "Geoforma caracterizada por la acción de algún agente geomorfológico.",
             "atributos": [
@@ -4708,6 +4878,7 @@
           },
           {
             "nombre": "Línea de quiebre",
+            "codigo": 50219,
             "geometria": "Línea",
             "definicion": "Línea donde se presenta un cambio de forma abrupta en la pendiente del terreno. ",
             "atributos": [
@@ -4730,6 +4901,7 @@
         "objetos": [
           {
             "nombre": "Suelo consolidado",
+            "codigo": 50401,
             "geometria": "Polígono",
             "definicion": "Superficie cuyas partes o partículas integrantes están unidas con una gran fuerza de cohesión interna. Corresponde a las rocas. ",
             "atributos": [
@@ -4745,6 +4917,7 @@
           },
           {
             "nombre": "Suelo no consolidado",
+            "codigo": 50402,
             "geometria": "Polígono",
             "definicion": "Superficie constituida por material sedimentario de variados tamaños, desde los mayores a los menores, cuya energía de unión es nula o muy baja.",
             "atributos": [
@@ -4776,6 +4949,7 @@
           },
           {
             "nombre": "Suelo congelado",
+            "codigo": 50403,
             "geometria": "Polígono",
             "definicion": "Superficie de material no consolidado que, por estar en zonas muy frías o por estar siempre cubierto de nieve o hielo, se congela la humedad retenida y con esto aumenta la dureza del mismo.",
             "atributos": [
@@ -4798,6 +4972,7 @@
         "objetos": [
           {
             "nombre": "Volcán",
+            "codigo": 50601,
             "geometria": "Punto",
             "definicion": "Conducto en la superficie de la Tierra, a través del cual asciende magma y gases asociados; también, se denomina a la estructura o forma (usualmente cónica) que se produce a partir del material eyectado (SEGEMAR, 2019).",
             "atributos": [
@@ -4829,6 +5004,7 @@
           },
           {
             "nombre": "Estación sismológica",
+            "codigo": 50602,
             "geometria": "Punto",
             "definicion": "Recinto especialmente diseñado para albergar al sismógrafo. Lo ideal es que se encuentre alejado de ruidos naturales y culturales para aumentar su sensibilidad. Incluye acelerómetro.",
             "atributos": [
@@ -4856,6 +5032,7 @@
           },
           {
             "nombre": "Epicentro de sismo",
+            "codigo": 50603,
             "geometria": "Punto",
             "definicion": "Punto de la superficie de la tierra que está directamente sobre el hipocentro de un sismo.",
             "atributos": [
@@ -4890,6 +5067,7 @@
         "objetos": [
           {
             "nombre": "Glaciar",
+            "codigo": 50701,
             "geometria": "Punto/Polígono",
             "definicion": "Masa de hielo permanente y en movimiento, alimentada desde un ventisquero y que en forma de lengua ocupa un valle moviéndose cuesta abajo. También incluye glaciar de circo, entre otros.",
             "atributos": [
@@ -4917,6 +5095,7 @@
           },
           {
             "nombre": "Ventisquero",
+            "codigo": 50702,
             "geometria": "Polígono",
             "definicion": "Zona de alta montaña cubierta de nieve permanente, con precipitación nívea continua y que el viento transporta y acumula constituyendo la zona de acumulación de los glaciares.",
             "atributos": [
@@ -4944,6 +5123,7 @@
           },
           {
             "nombre": "Penitente",
+            "codigo": 50703,
             "geometria": "Polígono",
             "definicion": "Remanente glaciar o de roca, en forma de aguja, columna aguda y filosa, generada por la acción eólica y los efectos de la radiación solar.",
             "atributos": [
@@ -4971,6 +5151,7 @@
           },
           {
             "nombre": "Morena, morrena",
+            "codigo": 50704,
             "geometria": "Línea/Polígono",
             "definicion": "Lugar de acumulación heterogénea de detritos en cuanto a tamaño y composición que, llevada por el glaciar, es acumulada por éste. ",
             "atributos": [
@@ -4998,6 +5179,7 @@
           },
           {
             "nombre": "Nunatak",
+            "codigo": 50705,
             "geometria": "Punto/Polígono",
             "definicion": "Afloramiento rocoso rodeado de hielo.",
             "atributos": [
@@ -5025,6 +5207,7 @@
           },
           {
             "nombre": "Espesor del hielo",
+            "codigo": 50706,
             "geometria": "Punto",
             "definicion": "Punto de referencia que indica el grosor del recubrimiento de la masa de hielo. ",
             "atributos": [
@@ -5044,6 +5227,7 @@
           },
           {
             "nombre": "Borde de hielo",
+            "codigo": 50707,
             "geometria": "Línea ",
             "definicion": "Línea exterior que fija la posición que alcanza la masa de hielo.",
             "atributos": [
@@ -5059,6 +5243,7 @@
           },
           {
             "nombre": "Barrera de hielo",
+            "codigo": 50708,
             "geometria": "Línea/Polígono",
             "definicion": "Masa de hielo permanente, flotante y de espesor variable, formada a lo largo de la costa y que se encuentra adherida a ella avanzando sobre el océano.",
             "atributos": [
@@ -5087,18 +5272,13 @@
         ]
       },
       {
-        "nombre": "COBERTURA TERRESTRE",
-        "codigo": 509,
-        "contenido": "Este Subgrupo consta de Conceptos que describen la cobertura de la superficie terrestre en una perspectiva global. (Adaptación DFDD)",
-        "objetos": []
-      },
-      {
         "nombre": "GEOLOGÍA",
         "codigo": 510,
         "contenido": "Objetos geográficos que hacen referencia a diferentes tipos de roca, según sus propiedades y edad; sus relaciones de contacto y estructuras geológicas (IDERA, 2015).",
         "objetos": [
           {
             "nombre": "Falla",
+            "codigo": 51001,
             "geometria": "Línea",
             "definicion": "Fractura macroscópica de los materiales de la corteza terrestre acompañada por el desplazamiento de los bloques.",
             "atributos": [
@@ -5142,6 +5322,7 @@
           },
           {
             "nombre": "Unidad geológica",
+            "codigo": 51002,
             "geometria": "Polígono",
             "definicion": "Área cuyo volumen de roca es identificable de acuerdo a su origen y edad.",
             "atributos": [
@@ -5176,6 +5357,7 @@
         "objetos": [
           {
             "nombre": "Ecorregión",
+            "codigo": 51101,
             "geometria": "Polígono",
             "definicion": "Zona en las que dominan determinadas condiciones geomorfológicas y climáticas relativamente uniformes o recurrentes, caracterizada por una fisonomía vegetal de comunidades naturales y seminaturales que comparten un grupo considerable de especies dominantes, una dinámica y condiciones ecológicas generales cuyas interacciones son indispensables para su persistencia a largo plazo. ",
             "atributos": [
@@ -5210,6 +5392,7 @@
         "objetos": [
           {
             "nombre": "Tierras áridas",
+            "codigo": 51201,
             "geometria": "Polígono",
             "definicion": "Área clasificada según la escasez estacional y / o anual de los recursos hídricos. Se define comúnmente como la insuficiencia de agua en el suelo y en la atmósfera.",
             "atributos": [
@@ -5233,6 +5416,7 @@
           },
           {
             "nombre": "Tierras degradadas",
+            "codigo": 51202,
             "geometria": "Polígono",
             "definicion": "Área que sufre un cambio en la salud del suelo, resultando en una disminución de la capacidad del ecosistema para producir bienes o prestar servicios para sus beneficiarios. Las tierras degradadas cubren todos los cambios negativos en la capacidad del ecosistema para prestar bienes y servicios (incluso biológicos y servicios y bienes relacionados con el agua, y también su relación con bienes y servicios sociales y económicos). ",
             "atributos": [
@@ -5271,6 +5455,7 @@
         "objetos": [
           {
             "nombre": "Área protegida",
+            "codigo": 51301,
             "geometria": "Polígono",
             "definicion": "Área de tierra y / o mar destinada a la protección y mantenimiento de la diversidad biológica y de los recursos naturales y culturales asociados.",
             "atributos": [
@@ -5310,6 +5495,7 @@
           },
           {
             "nombre": "Reserva de la Biosfera",
+            "codigo": 51302,
             "geometria": "Polígono",
             "definicion": "Ecosistema terrestre o costero/ marino, o una combinación de los mismos, reconocido como tal en un plano internacional en el marco del Programa MAB (Hombre y la Atmósfera) de la UNESCO.",
             "atributos": [
@@ -5341,6 +5527,7 @@
           },
           {
             "nombre": "Sitio Ramsar",
+            "codigo": 51303,
             "geometria": "Polígono",
             "definicion": "Son humedales que están incluidos en la Lista de Humedales de Importancia Internacional de la Convención sobre los Humedales (conocida como Convención de Ramsar). https://www.ramsar.org/sites/default/files/documents/library/ramsarsites_criteria_sp.pdf",
             "atributos": [
@@ -5372,6 +5559,7 @@
           },
           {
             "nombre": "Ordenamiento Territorial de Bosque Nativo",
+            "codigo": 51304,
             "geometria": "Polígono",
             "definicion": "Áreas  de protección ambiental a los bosques nativos según lo establecido en la Ley  de 26.331. (OTBN)",
             "atributos": [
@@ -5417,6 +5605,7 @@
         "objetos": [
           {
             "nombre": "Área de cultivo de especies arbóreas",
+            "codigo": 60101,
             "geometria": "Polígono",
             "definicion": "Área dedicada al cultivo de árboles bajo riego o en secano, sean latifoliados o coníferas.",
             "atributos": [
@@ -5432,6 +5621,7 @@
           },
           {
             "nombre": "Área de cultivo de arbustos",
+            "codigo": 60102,
             "geometria": "Polígono",
             "definicion": "Área dedicada al cultivo de arbustos bajo riego o en secano.",
             "atributos": [
@@ -5447,6 +5637,7 @@
           },
           {
             "nombre": "Área de cultivo de herbáceas",
+            "codigo": 60103,
             "geometria": "Polígono",
             "definicion": "Área dedicada al cultivo de herbáceas bajo riego o en secano, sean graminoideas, no graminoideas o múltiples.",
             "atributos": [
@@ -5469,6 +5660,7 @@
         "objetos": [
           {
             "nombre": "Vegetación natural herbácea cerrada",
+            "codigo": 60201,
             "geometria": "Polígono",
             "definicion": "Área de vegetación natural cubierta por pastizal cerrado, sea de cobertura simple, con árboles, con arbustos, o con árboles y arbustos.",
             "atributos": [
@@ -5488,6 +5680,7 @@
           },
           {
             "nombre": "Vegetación natural herbácea abierta",
+            "codigo": 60202,
             "geometria": "Polígono",
             "definicion": "Área de vegetación natural cubierta por pastizal abierto, sea de cobertura simple, con árboles, con arbustos, o con árboles y arbustos.",
             "atributos": [
@@ -5507,6 +5700,7 @@
           },
           {
             "nombre": "Vegetación natural herbácea dispersa",
+            "codigo": 60203,
             "geometria": "Polígono",
             "definicion": "Área de vegetación natural cubierta por pastizal disperso.",
             "atributos": [
@@ -5525,6 +5719,7 @@
         "objetos": [
           {
             "nombre": "Área de vegetación natural arbórea cerrada",
+            "codigo": 60301,
             "geometria": "Polígono",
             "definicion": "Área de vegetación natural cubierta por bosque cerrado, sea de un estrato arbóreo o de más de un estrato arbóreo, sin emergentes o con emergentes.",
             "atributos": [
@@ -5544,6 +5739,7 @@
           },
           {
             "nombre": "Área de vegetación natural arbórea abierta",
+            "codigo": 60302,
             "geometria": "Polígono",
             "definicion": "Área de vegetación natural cubierta por bosque abierto, sea con arbustos, con estrato herbáceo, o con arbustos y emergentes.",
             "atributos": [
@@ -5563,6 +5759,7 @@
           },
           {
             "nombre": "Área de vegetación natural arbórea dispersa",
+            "codigo": 60303,
             "geometria": "Polígono",
             "definicion": "Área de vegetación natural cubierta por árboles dispersos.",
             "atributos": [
@@ -5581,6 +5778,7 @@
         "objetos": [
           {
             "nombre": "Área de vegetación natural arbustiva cerrada",
+            "codigo": 60901,
             "geometria": "Polígono",
             "definicion": "Área de vegetación natural cubierta por arbustal cerrado, sea sin emergentes, con árboles emergentes, o con arbustos emergentes.",
             "atributos": [
@@ -5600,6 +5798,7 @@
           },
           {
             "nombre": "Área de vegetación natural arbustiva abierta",
+            "codigo": 60902,
             "geometria": "Polígono",
             "definicion": "Área de vegetación natural cubierta por arbustal abierto, sea sin estrato herbáceo o con estrato herbáceo.",
             "atributos": [
@@ -5619,6 +5818,7 @@
           },
           {
             "nombre": "Área de vegetación natural arbustiva dispersa",
+            "codigo": 60903,
             "geometria": "Polígono",
             "definicion": "Área de vegetación natural cubierta por arbustos dispersos.",
             "atributos": [
@@ -5648,6 +5848,7 @@
         "objetos": [
           {
             "nombre": "Línea de base normal",
+            "codigo": 70101,
             "geometria": "Línea",
             "definicion": "Línea a partir de la cual se mide el mar territorial, zona contigua, zona económica exclusiva y plataforma continental. También representa el límite exterior de las aguas interiores. Se define como la línea de bajamar a lo largo de la costa. Es la isobata de 0 metro, que corresponde al nivel del datum vertical local.",
             "atributos": [
@@ -5659,6 +5860,7 @@
           },
           {
             "nombre": "Línea de base recta",
+            "codigo": 70102,
             "geometria": "Línea",
             "definicion": "Línea a partir de la cual se mide el mar territorial, zona contigua, zona económica exclusiva y plataforma continental. También representa el límite exterior de las aguas interiores. Se define como la línea recta que une puntos sobre la línea de base normal. Las líneas de base archipelágicas rectas definen la periferia de un grupo  de islas.",
             "atributos": [
@@ -5670,6 +5872,7 @@
           },
           {
             "nombre": "Línea de costa",
+            "codigo": 70103,
             "geometria": "Línea",
             "definicion": "Línea que marca el contacto entre una masa de tierra y un cuerpo de agua, establecida por la línea de las más bajas bajamares, ya sea en las aguas litorales o interiores.",
             "atributos": [
@@ -5681,6 +5884,7 @@
           },
           {
             "nombre": "Límite del lecho y subsuelo",
+            "codigo": 70104,
             "geometria": "Línea",
             "definicion": "Línea demarcatoria de aguas jurisdiccionales en los fondos fluviales, definida en el Tratado del Río de la Plata y su Frente Marítimo.",
             "atributos": [
@@ -5692,6 +5896,7 @@
           },
           {
             "nombre": "Límite lateral marítimo",
+            "codigo": 70105,
             "geometria": "Línea",
             "definicion": "Línea de deslinde entre mares jurisdiccionales contiguos, definida en el Tratado del Río de la Plata su Frente Marítimo.",
             "atributos": [
@@ -5703,6 +5908,7 @@
           },
           {
             "nombre": "Límite del Mar Territorial Argentino",
+            "codigo": 70106,
             "geometria": "Línea",
             "definicion": "Delimitación exterior del Mar Territorial Argentino, el cual se extiende hasta una distancia de 12 millas marinas a partir de las líneas de base.",
             "atributos": [
@@ -5714,6 +5920,7 @@
           },
           {
             "nombre": "Mar Territorial Argentino",
+            "codigo": 70107,
             "geometria": "Polígono",
             "definicion": "Zona marítima que se extiende hasta una distancia de 12 millas marinas a partir de la línea de base.",
             "atributos": [
@@ -5725,6 +5932,7 @@
           },
           {
             "nombre": "Límite de la Zona Contigua Argentina",
+            "codigo": 70108,
             "geometria": "Línea",
             "definicion": "Delimitación exterior de la Zona Contigua Argentina, la cual se extiende más allá del límite exterior del mar territorial, hasta una distancia de 24 millas marinas medidas a partir de las líneas de base.",
             "atributos": [
@@ -5736,6 +5944,7 @@
           },
           {
             "nombre": "Zona Contigua Argentina",
+            "codigo": 70109,
             "geometria": "Polígono",
             "definicion": "Zona marítima que se extiende desde el límite exterior del mar territorial, hasta una distancia de 24 millas marinas medidas a partir de las líneas de base.",
             "atributos": [
@@ -5747,6 +5956,7 @@
           },
           {
             "nombre": "Límite de la Zona Económica Exclusiva Argentina",
+            "codigo": 70110,
             "geometria": "Línea",
             "definicion": "Delimitación exterior de la Zona Económica Exclusiva Argentina, la cual se extiende más allá del límite exterior del mar territorial, hasta una distancia de 200 millas marinas a partir de las líneas de base.",
             "atributos": [
@@ -5758,6 +5968,7 @@
           },
           {
             "nombre": "Zona Económica Exclusiva Argentina",
+            "codigo": 70111,
             "geometria": "Polígono",
             "definicion": "Zona marítima que se extiende más allá del límite exterior del mar territorial, hasta una distancia de 200 millas marinas a partir de las líneas de base.",
             "atributos": [
@@ -5769,6 +5980,7 @@
           },
           {
             "nombre": "Límite de la Plataforma Continental",
+            "codigo": 70112,
             "geometria": "Línea",
             "definicion": "Delimitación exterior de la Plataforma Continental, la cual comprende el lecho y el subsuelo de las áreas submarinas que se extienden más allá del mar territorial y a todo lo largo de la prolongación natural del territorio hasta el borde exterior del margen continental, o bien hasta una distancia de 200 millas marinas medidas a partir de las líneas de base, en los casos en que el borde exterior no llegue a esa distancia.",
             "atributos": [
@@ -5780,6 +5992,7 @@
           },
           {
             "nombre": "Plataforma Continental",
+            "codigo": 70113,
             "geometria": "Polígono",
             "definicion": "Zona marítima que comprende el lecho y el subsuelo de las áreas submarinas que se extienden más allá del mar territorial y a todo lo largo de la prolongación natural del territorio hasta el borde exterior del margen continental, o bien hasta una distancia de 200 millas marinas contadas desde la línea de base, en los casos en que el borde exterior del margen continental no llegue a esa distancia.",
             "atributos": [
@@ -5791,6 +6004,7 @@
           },
           {
             "nombre": "Límite de gobierno local",
+            "codigo": 70114,
             "geometria": "Línea",
             "definicion": "Línea que constituye la representación de la traza demarcadora que delimita un gobierno local de menor jerarquía que un departamento o partido.",
             "atributos": [
@@ -5806,6 +6020,7 @@
           },
           {
             "nombre": "Límite interdepartamental o de partido",
+            "codigo": 70115,
             "geometria": "Línea",
             "definicion": "Línea que constituye la representación de la traza demarcadora que delimita la jurisdicción de un departamento o partido de otro.",
             "atributos": [
@@ -5821,6 +6036,7 @@
           },
           {
             "nombre": "Límite interprovincial",
+            "codigo": 70116,
             "geometria": "Línea",
             "definicion": "Línea que constituye la representación de la traza demarcadora que delimita una provincia de otra.",
             "atributos": [
@@ -5836,6 +6052,7 @@
           },
           {
             "nombre": "Límite internacional",
+            "codigo": 70117,
             "geometria": "Línea",
             "definicion": "Línea que constituye la representación de la traza demarcadora que delimita un país.",
             "atributos": [
@@ -5847,6 +6064,7 @@
           },
           {
             "nombre": "Límite de Zona de Frontera",
+            "codigo": 70118,
             "geometria": "Línea",
             "definicion": "Línea que constituye la representación de la traza demarcadora que delimita la Zona de Frontera.",
             "atributos": [
@@ -5858,6 +6076,7 @@
           },
           {
             "nombre": "Zona de Frontera",
+            "codigo": 70119,
             "geometria": "Polígono",
             "definicion": "Zona adyacente al límite internacional, que constituye una zona de seguridad destinada a complementar las previsiones territoriales de la defensa nacional y / o un área prioritaria para su desarrollo.",
             "atributos": [
@@ -5877,6 +6096,7 @@
           },
           {
             "nombre": "Municipio",
+            "codigo": 70120,
             "geometria": "Polígono",
             "definicion": "División político administrativa de tercer orden, que incluye comunas, juntas vecinales y demás formas de gobierno local.",
             "atributos": [
@@ -5894,7 +6114,7 @@
               },
               {
                 "codigo": "CMU",
-                "denominacion": "Código Municipio"
+                "denominacion": "Codigo Municipio"
               },
               {
                 "codigo": "SAG",
@@ -5904,6 +6124,7 @@
           },
           {
             "nombre": "Departamento",
+            "codigo": 70121,
             "geometria": "Polígono",
             "definicion": "División político administrativa de segundo orden. Incluye partido y comuna.",
             "atributos": [
@@ -5921,11 +6142,11 @@
               },
               {
                 "codigo": "CDE",
-                "denominacion": "Código Departamento"
+                "denominacion": "Codigo Departamento"
               },
               {
                 "codigo": "CCA",
-                "denominacion": "Código Parcelario "
+                "denominacion": "Codigo Parcelario "
               },
               {
                 "codigo": "ARA",
@@ -5947,6 +6168,7 @@
           },
           {
             "nombre": "Provincia",
+            "codigo": 70122,
             "geometria": "Polígono",
             "definicion": "División político territorial de primer orden. Incluye la Ciudad Autónoma de Buenos Aires (CABA).",
             "atributos": [
@@ -5964,7 +6186,7 @@
               },
               {
                 "codigo": "CPR",
-                "denominacion": "Código Provincia"
+                "denominacion": "Codigo Provincia"
               },
               {
                 "codigo": "SAG",
@@ -5974,6 +6196,7 @@
           },
           {
             "nombre": "País",
+            "codigo": 70123,
             "geometria": "Polígono",
             "definicion": "Nación jurídicamente organizada.",
             "atributos": [
@@ -5997,6 +6220,7 @@
           },
           {
             "nombre": "Paso fronterizo",
+            "codigo": 70124,
             "geometria": "Punto",
             "definicion": "Punto geográfico (hecho físico) que permite ingresar o salir de un país.",
             "atributos": [
@@ -6027,6 +6251,7 @@
         "objetos": [
           {
             "nombre": "Red RAMSAC",
+            "codigo": 70301,
             "geometria": "Punto",
             "definicion": "Red de estaciones GPS/GNSS permanentes que poseen coordenadas en el Marco de Referencia Geodésico Nacional POSGAR 2007. Esta red es denominada Red Argentina de Monitoreo Satelital Continuo (RAMSAC).",
             "atributos": [
@@ -6036,7 +6261,7 @@
               },
               {
                 "codigo": "CER",
-                "denominacion": "Código de estación RAMSAC"
+                "denominacion": "Codigo de estación RAMSAC"
               },
               {
                 "codigo": "AI1",
@@ -6050,6 +6275,7 @@
           },
           {
             "nombre": "Red Geocéntrica",
+            "codigo": 70302,
             "geometria": "Punto",
             "definicion": "Red de pilares o mojones de primer orden que poseen coordenadas en el Marco de Referencia Geodésico Nacional POSGAR 2007.",
             "atributos": [
@@ -6141,14 +6367,9 @@
           },
           {
             "nombre": "Red Altimérica",
+            "codigo": 70303,
             "geometria": "Punto",
             "definicion": "Red de pilares o mojones que poseen una altura referida al nivel medio del mar, a la que se la denomina cota.",
-            "atributos": []
-          },
-          {
-            "nombre": "Red gravimétrica",
-            "geometria": "Punto",
-            "definicion": "Red de pilares o mojones que poseen un valor de aceleración de la gravedad en el datum gravimétrico por el Instituto Geográfico Nacional.",
             "atributos": [
               {
                 "codigo": "MRG",
@@ -6203,6 +6424,82 @@
                 "denominacion": "Última visita"
               }
             ]
+          },
+          {
+            "nombre": "Red gravimétrica",
+            "codigo": 70304,
+            "geometria": "Punto",
+            "definicion": "Red de pilares o mojones que poseen un valor de aceleración de la gravedad en el datum gravimétrico por el Instituto Geográfico Nacional.",
+            "atributos": [
+              {
+                "codigo": "MRG",
+                "denominacion": "Marco de referencia geodésico"
+              },
+              {
+                "codigo": "FNA",
+                "denominacion": "Nombre geográfico"
+              },
+              {
+                "codigo": "LAG",
+                "denominacion": "Latitud grados"
+              },
+              {
+                "codigo": "LAM",
+                "denominacion": "Latitud minutos"
+              },
+              {
+                "codigo": "LAS",
+                "denominacion": "Latitud segundos"
+              },
+              {
+                "codigo": "LGR",
+                "denominacion": "Longitud grados"
+              },
+              {
+                "codigo": "LOM",
+                "denominacion": "Longitud minutos"
+              },
+              {
+                "codigo": "LOS",
+                "denominacion": "Longitud segundos"
+              },
+              {
+                "codigo": "PLA",
+                "denominacion": "Precisión planimétrica"
+              },
+              {
+                "codigo": "AEL",
+                "denominacion": "Altura elipsoidal"
+              },
+              {
+                "codigo": "COO",
+                "denominacion": "Cota oficial"
+              },
+              {
+                "codigo": "GSF",
+                "denominacion": "Gravedad oficial"
+              },
+              {
+                "codigo": "TGO",
+                "denominacion": "Tipo de gravedad oficial"
+              },
+              {
+                "codigo": "PAA",
+                "denominacion": "Precisión altimétrica"
+              },
+              {
+                "codigo": "AM1",
+                "denominacion": "Año de medición"
+              },
+              {
+                "codigo": "FDC",
+                "denominacion": "Fuente de captura"
+              },
+              {
+                "codigo": "ULV",
+                "denominacion": "Última visita"
+              }
+            ]
           }
         ]
       },
@@ -6213,6 +6510,7 @@
         "objetos": [
           {
             "nombre": "Círculo Polar",
+            "codigo": 70401,
             "geometria": "Línea",
             "definicion": "Cada uno de los dos paralelos situados a 66º 33' 45\" Norte y 66º 33' 45\" Sur, refiriéndose respectivamente a los círculos polares Ártico y Antártico.",
             "atributos": [
@@ -6228,6 +6526,7 @@
           },
           {
             "nombre": "Trópico",
+            "codigo": 70402,
             "geometria": "Línea",
             "definicion": "Cada uno de los dos círculos imaginarios de la esfera celeste paralelos al Ecuador, ubicados aproximadamente a la latitudes  de 23º 26` 17``,43 Norte y 23º 26` 17``,43 Sur.",
             "atributos": [
@@ -6243,6 +6542,7 @@
           },
           {
             "nombre": "Ecuador",
+            "codigo": 70403,
             "geometria": "Línea",
             "definicion": "Círculo máximo, perpendicular al eje de rotación de la Tierra que la divide en dos hemisferios: Norte y Sur. En él se origina la coordenada geográfica latitud.",
             "atributos": [
@@ -6254,6 +6554,7 @@
           },
           {
             "nombre": "Meridiano de Greenwich",
+            "codigo": 70404,
             "geometria": "Línea",
             "definicion": "Meridiano que pasa por el Real Observatorio de Greenwich, aceptado universalmente como meridiano principal, de longitud cero. A partir de él se mide la coordenada longitud.",
             "atributos": [
@@ -6265,6 +6566,7 @@
           },
           {
             "nombre": "Polo",
+            "codigo": 70405,
             "geometria": "Punto",
             "definicion": "Cada uno de los dos puntos más septentrional y más austral de la superficie terrestre, opuestos entre sí.",
             "atributos": [
@@ -6283,10 +6585,11 @@
       {
         "nombre": "PLANEAMIENTO URBANO",
         "codigo": 705,
-        "contenido": "Objetos territoriales legales definidos por un Código de Planeamiento Urbano que alcanzan y rigen aquellos asuntos relacionados directa o indirectamente con el uso del suelo, de edificios, estructuras e instalaciones, apertura y ensanche de vías públicas, subdivisión y englobamiento de parcelas, volúmenes edificables, tejido urbano, preservación de ámbitos históricos, arquitectónicos, ambientales y paisajísticos y con aquellos aspectos que tengan relación con el ordenamiento urbanístico del territorio de la Ciudad (AGC Catamarca, 2016).",
+        "contenido": "Objetos territoriales legales definidos por un Codigo de Planeamiento Urbano que alcanzan y rigen aquellos asuntos relacionados directa o indirectamente con el uso del suelo, de edificios, estructuras e instalaciones, apertura y ensanche de vías públicas, subdivisión y englobamiento de parcelas, volúmenes edificables, tejido urbano, preservación de ámbitos históricos, arquitectónicos, ambientales y paisajísticos y con aquellos aspectos que tengan relación con el ordenamiento urbanístico del territorio de la Ciudad (AGC Catamarca, 2016).",
         "objetos": [
           {
             "nombre": "Distrito",
+            "codigo": 70701,
             "geometria": "Polígono",
             "definicion": "Espacio urbano que tiene una regulación en la subdivisión de la tierra, el tejido urbano, la intensidad de uso y los usos del suelo.",
             "atributos": [
@@ -6310,6 +6613,7 @@
           },
           {
             "nombre": "Barrio",
+            "codigo": 70702,
             "geometria": "Polígono",
             "definicion": "División geográfica de tercer orden (DGEyC-GCBA).",
             "atributos": [
@@ -6333,15 +6637,55 @@
           },
           {
             "nombre": "Usos de suelo",
+            "codigo": 70503,
             "geometria": "Polígono",
             "definicion": "La clasificación del uso de suelo está definida por las distintas categorías de espacios dentro de un municipio, en términos de los niveles de usos urbanos, de transición y rurales. (Mun SS de Jujuy - 2021)",
-            "atributos": []
+            "atributos": [
+              {
+                "codigo": "COZ",
+                "denominacion": "Codigo de zona"
+              },
+              {
+                "codigo": "DSP",
+                "denominacion": "Descripcion resumida del uso de suelo"
+              },
+              {
+                "codigo": "SDP",
+                "denominacion": "Descripción de fuente"
+              },
+              {
+                "codigo": "ARA",
+                "denominacion": "Área"
+              },
+              {
+                "codigo": "SAG",
+                "denominacion": "Autoridad de fuente"
+              }
+            ]
           },
           {
             "nombre": "Ejido urbano",
+            "codigo": 70504,
             "geometria": "Polígono",
             "definicion": "Área urbana delimitada legalmente.",
-            "atributos": []
+            "atributos": [
+              {
+                "codigo": "FNA",
+                "denominacion": "Nombre geográfico"
+              },
+              {
+                "codigo": "GNA",
+                "denominacion": "Término genérico"
+              },
+              {
+                "codigo": "NAM",
+                "denominacion": "Término específico"
+              },
+              {
+                "codigo": "SAG",
+                "denominacion": "Autoridad de fuente"
+              }
+            ]
           }
         ]
       }
@@ -6359,6 +6703,7 @@
         "objetos": [
           {
             "nombre": "Edificio de seguridad",
+            "codigo": 90101,
             "geometria": "Punto",
             "definicion": "Construcción destinada al asiento de la autoridad encargada de la seguridad. ",
             "atributos": [
@@ -6386,6 +6731,7 @@
           },
           {
             "nombre": "Institución penitenciaria",
+            "codigo": 90102,
             "geometria": "Punto/Polígono",
             "definicion": "Instalación destinada al cumplimiento de las penas previstas en las sentencias judiciales, penas pecuniarias (multas) o pena de privación de ciertos derechos.",
             "atributos": [
@@ -6409,6 +6755,7 @@
           },
           {
             "nombre": "Cuartel de bomberos",
+            "codigo": 90103,
             "geometria": "Punto",
             "definicion": "Estructura preparada para almacenar el equipamiento necesario para apagar fuegos, incluyendo mangueras, vehículos, equipos de protección del personal, extintores de fuego, entre otros. Puede tener también dormitorios e instalaciones de trabajo como salas de reunión, entre otros.",
             "atributos": [
@@ -6432,6 +6779,7 @@
           },
           {
             "nombre": "Instalación militar",
+            "codigo": 90104,
             "geometria": "Punto",
             "definicion": "Instalación destinada al asentamiento de paz de las Fuerzas Armadas.",
             "atributos": [
@@ -6473,6 +6821,7 @@
         "objetos": [
           {
             "nombre": "Avalancha de nieve",
+            "codigo": 100101,
             "geometria": "Punto",
             "definicion": "Lugar de deslizamiento gravitacional de nieve.",
             "atributos": [
@@ -6503,6 +6852,7 @@
         "objetos": [
           {
             "nombre": "Estación meteorológica",
+            "codigo": 100201,
             "geometria": "Punto",
             "definicion": "Instalación destinada a medir y registrar regularmente diversas variables meteorológicas.",
             "atributos": [
@@ -6528,7 +6878,7 @@
               },
               {
                 "codigo": "CE1",
-                "denominacion": "Código de estación"
+                "denominacion": "Codigo de estación"
               },
               {
                 "codigo": "SAG",
@@ -6538,6 +6888,7 @@
           },
           {
             "nombre": "Estación de ozono y altura",
+            "codigo": 100202,
             "geometria": "Punto",
             "definicion": "Instalación destinada a medir y registrar regularmente diversas variables relacionadas con la capa de ozono y la vigilancia atmosférica.",
             "atributos": [
@@ -6555,7 +6906,7 @@
               },
               {
                 "codigo": "CEO",
-                "denominacion": "Código de estación de ozono y altura"
+                "denominacion": "Codigo de estación de ozono y altura"
               },
               {
                 "codigo": "SAG",
@@ -6565,6 +6916,7 @@
           },
           {
             "nombre": "Isoterma",
+            "codigo": 100203,
             "geometria": "Línea",
             "definicion": "Línea que une puntos de igual temperatura media anual en un determinado período de tiempo. ",
             "atributos": [
@@ -6580,6 +6932,7 @@
           },
           {
             "nombre": "Isohieta",
+            "codigo": 100204,
             "geometria": "Línea",
             "definicion": "Línea que une puntos de igual precipitación media anual en un determinado período de tiempo. ",
             "atributos": [
@@ -6602,6 +6955,7 @@
         "objetos": [
           {
             "nombre": "Región climática cálida",
+            "codigo": 100301,
             "geometria": "Polígono",
             "definicion": "Área bioclimática considerada de rigor climático por calor, según la influencia del clima sobre la actividad educativa.",
             "atributos": [
@@ -6617,6 +6971,7 @@
           },
           {
             "nombre": "Región climática fría ",
+            "codigo": 100302,
             "geometria": "Polígono",
             "definicion": "Área bioclimática considerada de rigor climático por frío, según la influencia del clima sobre la actividad educativa.",
             "atributos": [
@@ -6632,6 +6987,7 @@
           },
           {
             "nombre": "Zona según frecuencia anual media de nevadas",
+            "codigo": 100303,
             "geometria": "Polígono",
             "definicion": "Área definida en función de las precipitaciones nivales.",
             "atributos": [
@@ -6647,6 +7003,7 @@
           },
           {
             "nombre": "Zona según riesgo UV",
+            "codigo": 100304,
             "geometria": "Polígono",
             "definicion": "Área definida por la peligrosidad de la exposición ante la radiación solar.",
             "atributos": [
@@ -6662,6 +7019,7 @@
           },
           {
             "nombre": "Zona según frecuencia anual media de heladas",
+            "codigo": 100305,
             "geometria": "Polígono",
             "definicion": "Área definida en función del la ocurrencia media de heladas..",
             "atributos": [
@@ -6677,6 +7035,7 @@
           },
           {
             "nombre": "Zona según frecuencia anual media de granizadas",
+            "codigo": 100306,
             "geometria": "Polígono",
             "definicion": "Área definida en función del la ocurrencia media de granizadas.",
             "atributos": [
@@ -6706,16 +7065,17 @@
         "objetos": [
           {
             "nombre": "Parcela",
+            "codigo": 110101,
             "geometria": "Polígono",
             "definicion": "Extensión territorial continua, deslindada por un polígono de límites conocidos, perteneciente a un propietario.",
             "atributos": [
               {
                 "codigo": "CCA",
-                "denominacion": "Código Parcelario "
+                "denominacion": "Codigo Parcelario "
               },
               {
                 "codigo": "PDA",
-                "denominacion": "Código de Identificación tributaria"
+                "denominacion": "Codigo de Identificación tributaria"
               },
               {
                 "codigo": "TPA",
@@ -6737,12 +7097,13 @@
           },
           {
             "nombre": "Macizo",
+            "codigo": 110102,
             "geometria": "Polígono",
             "definicion": "Extensión de territorio cuya superficie varía según su tipología y ubicación; y que por lo general está totalmente rodeado de vías de circulación. Se interpreta como macizo al área conformada por la sucesión de los frentes y ochavas de cada parcela, que separa el dominio privado de la vía pública, y que no siempre se materializa constructivamente.",
             "atributos": [
               {
                 "codigo": "CCA",
-                "denominacion": "Código parcelario"
+                "denominacion": "Codigo parcelario"
               },
               {
                 "codigo": "TYM",
@@ -6764,12 +7125,13 @@
           },
           {
             "nombre": "Sección catastral",
+            "codigo": 110103,
             "geometria": "Polígono",
             "definicion": "Registro administrativo dependiente del Estado en el que se describen los bienes inmuebles.",
             "atributos": [
               {
                 "codigo": "CCA",
-                "denominacion": "Código parcelario"
+                "denominacion": "Codigo parcelario"
               },
               {
                 "codigo": "TPA",
@@ -6787,12 +7149,13 @@
           },
           {
             "nombre": "Circunscripción ",
+            "codigo": 110104,
             "geometria": "Polígono",
             "definicion": "Polígonos en los que un Partido (Departamento) se subdivide, pudiendo contener en conjunto o separadamente plantas urbanas, suburbanas y rurales (ARBA,2018).",
             "atributos": [
               {
                 "codigo": "CCA",
-                "denominacion": "Código parcelario"
+                "denominacion": "Codigo parcelario"
               },
               {
                 "codigo": "ARA",
@@ -6806,12 +7169,13 @@
           },
           {
             "nombre": "Subparcela",
+            "codigo": 110105,
             "geometria": "Polígono",
             "definicion": "La propiedad de la unidad funcional o subparcela comprende la parte indivisa del terreno, de las cosas y partes de uso común del inmueble o indispensables para mantener su seguridad, y puede abarcar una o más unidades complementarias destinadas a servirla (ARBA, 2018).",
             "atributos": [
               {
                 "codigo": "CCA",
-                "denominacion": "Código parcelario"
+                "denominacion": "Codigo parcelario"
               },
               {
                 "codigo": "ARA",
@@ -6825,12 +7189,13 @@
           },
           {
             "nombre": "Lado catastral",
+            "codigo": 110106,
             "geometria": "Línea",
             "definicion": "Valor numérico del lado de un polígono (referido a un objeto catastral) que representa su longitud (ARBA, 2018).",
             "atributos": [
               {
                 "codigo": "CCA",
-                "denominacion": "Código parcelario"
+                "denominacion": "Codigo parcelario"
               },
               {
                 "codigo": "TDL",
@@ -6852,6 +7217,7 @@
           },
           {
             "nombre": "Conjunto Inmobiliario",
+            "codigo": 110107,
             "geometria": "Polígono",
             "definicion": "Son conjuntos inmobiliarios los clubes de campo, barrios cerrados o privados, parques industriales, empresariales o náuticos, o cualquier otro emprendimiento urbanístico independientemente del destino de vivienda permanente o temporaria, laboral, comercial o empresarial que tenga, comprendidos asimismo aquellos que contemplan usos mixtos, con arreglo a lo dispuesto en las normas administrativas locales. (ARBA 2019)",
             "atributos": [
@@ -6883,16 +7249,17 @@
           },
           {
             "nombre": "Parcela superficiaria",
+            "codigo": 110108,
             "geometria": "Polígono",
-            "definicion": "Es la parcela catastral sobre la que se ejerce el derecho de superficie, que es un derecho real temporario, que se constituye sobre un inmueble ajeno, que otorga a su titular la facultad de uso, goce y disposición material y jurídica del derecho de plantar, forestar o construir, o sobre lo plantado, forestado o construido en el terreno, el vuelo o el subsuelo, según las modalidades de su ejercicio y plazo de duración establecidos en el título suficiente para su constitución y dentro de lo previsto en el título VII del Código Civil y las leyes especiales. (ARBA 2019)",
+            "definicion": "Es la parcela catastral sobre la que se ejerce el derecho de superficie, que es un derecho real temporario, que se constituye sobre un inmueble ajeno, que otorga a su titular la facultad de uso, goce y disposición material y jurídica del derecho de plantar, forestar o construir, o sobre lo plantado, forestado o construido en el terreno, el vuelo o el subsuelo, según las modalidades de su ejercicio y plazo de duración establecidos en el título suficiente para su constitución y dentro de lo previsto en el título VII del Codigo Civil y las leyes especiales. (ARBA 2019)",
             "atributos": [
               {
                 "codigo": "CCA",
-                "denominacion": "Código Parcelario"
+                "denominacion": "Codigo Parcelario"
               },
               {
                 "codigo": "PDA",
-                "denominacion": "Código de Identificación tributaria"
+                "denominacion": "Codigo de Identificación tributaria"
               },
               {
                 "codigo": "TPA",
@@ -6925,21 +7292,67 @@
         "objetos": [
           {
             "nombre": "Cateo",
+            "codigo": 110201,
             "geometria": "Polígono",
             "definicion": "Permiso exclusivo para prospectar un área determinada, por el tiempo y la extensión que señala la Ley.",
-            "atributos": []
+            "atributos": [
+              {
+                "codigo": "NEX",
+                "denominacion": "Número de expediente"
+              },
+              {
+                "codigo": "ARA",
+                "denominacion": "Área"
+              },
+              {
+                "codigo": "SAG",
+                "denominacion": "Autoridad de fuente"
+              }
+            ]
           },
           {
             "nombre": "Pertenencia",
+            "codigo": 110202,
             "geometria": "Polígono",
             "definicion": "Extensión del terreno dentro de cuyos límites es posible realizar actividades de prospección. El terreno correspondiente a cada pertenencia se determina en superficie por líneas rectas, y en profundidad por planos verticales indicados por esas líneas. ",
-            "atributos": []
+            "atributos": [
+              {
+                "codigo": "NEX",
+                "denominacion": "Número de expediente"
+              },
+              {
+                "codigo": "PPO",
+                "denominacion": "Producto"
+              },
+              {
+                "codigo": "ARA",
+                "denominacion": "Área"
+              },
+              {
+                "codigo": "SAG",
+                "denominacion": "Autoridad de fuente"
+              }
+            ]
           },
           {
             "nombre": "Manifestación de descubrimiento",
+            "codigo": 110203,
             "geometria": "Punto",
             "definicion": "Localización de un criadero mineral a ser explorado. Se encuentra asociada a un área de exploración y constituye la causa originaria mas importante de adquisición de las concesiones mineras. ",
-            "atributos": []
+            "atributos": [
+              {
+                "codigo": "NEX",
+                "denominacion": "Número de expediente"
+              },
+              {
+                "codigo": "PPO",
+                "denominacion": "Producto"
+              },
+              {
+                "codigo": "SAG",
+                "denominacion": "Autoridad de fuente"
+              }
+            ]
           }
         ]
       }
@@ -6957,12 +7370,13 @@
         "objetos": [
           {
             "nombre": "Fracción censal",
+            "codigo": 120101,
             "geometria": "Polígono",
             "definicion": "Unidad censal en que se divide cada departamento, definida por un espacio territorial con límites geográficos y una determinada cantidad de unidades de análisis a relevar (INDEC,  2018).",
             "atributos": [
               {
                 "codigo": "CFN",
-                "denominacion": "Código de fracción"
+                "denominacion": "Codigo de fracción"
               },
               {
                 "codigo": "SAG",
@@ -6972,12 +7386,13 @@
           },
           {
             "nombre": "Radio censal",
+            "codigo": 120102,
             "geometria": "Polígono",
             "definicion": "Unidad censal que forma parte de una fracción, definida por un espacio territorial con límites geográficos y una determinada cantidad de unidades de análisis a relevar (INDEC, 2018).",
             "atributos": [
               {
                 "codigo": "CRO",
-                "denominacion": "Código de radio"
+                "denominacion": "Codigo de radio"
               },
               {
                 "codigo": "TRO",
@@ -6998,6 +7413,7 @@
         "objetos": [
           {
             "nombre": "Localidad Censal",
+            "codigo": 120201,
             "geometria": "Punto / Lineas/ Polígonos",
             "definicion": "Concentración espacial de objetos físicos artificiales fijos conectados entre sí por medio de una red de calles, en una determinada porción del territorio. Está determinado por la continuidad espacial de los mismos y es independiente de los límites jurisdiccionales (INDEC, 2018).",
             "atributos": [
@@ -7015,7 +7431,7 @@
               },
               {
                 "codigo": "CLC",
-                "denominacion": "Código de localidad"
+                "denominacion": "Codigo de localidad"
               },
               {
                 "codigo": "TLC",
@@ -7029,6 +7445,7 @@
           },
           {
             "nombre": "Envolvente urbana",
+            "codigo": 120202,
             "geometria": "Linea Polìgono",
             "definicion": "Área comprendida por una o varias localidades censales cuya continuidad espacial determina que sean consideradas como una unidad o aglomerado urbano (INDEC, 2018).",
             "atributos": [
@@ -7046,7 +7463,7 @@
               },
               {
                 "codigo": "CEU",
-                "denominacion": "Código de envolvente urbana"
+                "denominacion": "Codigo de envolvente urbana"
               },
               {
                 "codigo": "TEU",
@@ -7060,6 +7477,7 @@
           },
           {
             "nombre": "Entidad",
+            "codigo": 120203,
             "geometria": "Punto / Polígono",
             "definicion": "Subdivisión interna de una localidad dentro del área correspondiente a un gobierno local. Debe tener límites fijos establecidos por una legislación municipal y deben ser reconocibles, tanto en la cartografía como en el terreno (INDEC, 2018",
             "atributos": [
@@ -7077,7 +7495,7 @@
               },
               {
                 "codigo": "CEN",
-                "denominacion": "Código de entidad"
+                "denominacion": "Codigo de entidad"
               },
               {
                 "codigo": "SAG",
@@ -7087,6 +7505,7 @@
           },
           {
             "nombre": "Vias de circulación censal",
+            "codigo": 120204,
             "geometria": "Linea",
             "definicion": "Trazado que permite la circulación en el interior de una área urbana y que no es parte del acceso a la misma. Determina los límites de manzanas (INDEC, 2018).",
             "atributos": [
@@ -7104,7 +7523,7 @@
               },
               {
                 "codigo": "CVC",
-                "denominacion": "Código de via de circulación"
+                "denominacion": "Codigo de via de circulación"
               },
               {
                 "codigo": "SAG",
