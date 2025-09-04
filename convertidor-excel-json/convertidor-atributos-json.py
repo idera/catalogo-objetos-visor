@@ -1,13 +1,13 @@
 import pandas as pd
 
 # Cargar todas las hojas del Excel
-xls = pd.read_excel("convertidor-excel-json/Catalogo_Objetos_IDERA.xls", sheet_name=None, header=2)
+xls = pd.read_excel("convertidor-excel-json/Catalogo_Objetos_IDERA-2025.xlsm", sheet_name=None, header=2)
 
 # Hoja: Lista de atributos
 df_lista_atrib = xls["LISTA DE ATRIBUTOS"]
 
 # Cargar todas las hojas del Excel
-xls_atrib = pd.read_excel("convertidor-excel-json/Catalogo_Objetos_IDERA.xls", sheet_name=None, header=3)
+xls_atrib = pd.read_excel("convertidor-excel-json/Catalogo_Objetos_IDERA-2025.xlsm", sheet_name=None, header=3)
 
 # Todas las hojas con nombres que coincidan con códigos de atributos
 atributo_sheets = []
@@ -41,9 +41,9 @@ for index, row in df_lista_atrib.iterrows():
                     # siempre se salta el primero
                     if idx == 0:
                         continue
-                    dominio_codigo = sd_row["Codigo"]
+                    dominio_codigo = sd_row["CODIGO"]
                     dominio_etiqueta = sd_row["Etiqueta"]
-                    dominio_definicion = sd_row["Definición"]
+                    dominio_definicion = sd_row["DEFINICION"]
                     dominio_obs = sd_row.get("Observaciones", "")
 
                     if pd.isna(dominio_obs):
@@ -76,5 +76,5 @@ for index, row in df_lista_atrib.iterrows():
 
 # crea un archivo json con los atributos, sus códigos y sus dominios (valores posibles, junto con sus definiciones)
 import json
-with open("convertidor-excel-json/atributos.json", "w", encoding="utf-8") as g:
+with open("convertidor-excel-json/atributos-2025.json", "w", encoding="utf-8") as g:
     json.dump(lista, g, ensure_ascii=False, indent=2)
